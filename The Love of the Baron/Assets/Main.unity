@@ -246,8 +246,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.81960785, g: 0.81960785, b: 0.81960785, a: 1}
+    m_PressedColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -267,7 +267,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 33406382}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: AddPazifismus
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &33406382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -401,7 +413,7 @@ GameObject:
   - component: {fileID: 116743098}
   - component: {fileID: 116743097}
   m_Layer: 5
-  m_Name: Wut
+  m_Name: Hass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -449,8 +461,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.81960785, g: 0.81960785, b: 0.81960785, a: 1}
+    m_PressedColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -470,7 +482,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 116743098}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: AddHass
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &116743098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -610,7 +634,7 @@ RectTransform:
   - {fileID: 901005989}
   - {fileID: 497447115}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -678,7 +702,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 0.81960785, g: 0.81960785, b: 0.81960785, a: 1}
     m_PressedColor: {r: 0.23584908, g: 0.23584908, b: 0.23584908, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -699,7 +723,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 357828068}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: AddLiebe
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &357828068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1491,7 +1527,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &831083338
 GameObject:
@@ -1505,7 +1541,6 @@ GameObject:
   - component: {fileID: 831083339}
   - component: {fileID: 831083342}
   - component: {fileID: 831083344}
-  - component: {fileID: 831083340}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -1527,26 +1562,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Sector: {fileID: 840995640}
   UI: {fileID: 291058471}
---- !u!114 &831083340
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 831083338}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b550528b0ef8be642841af860ba0ae77, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Response: {fileID: 0}
-  Liebe: {fileID: 357828067}
-  Hass: {fileID: 116743097}
-  Gier: {fileID: 1359549892}
-  Neid: {fileID: 1698655958}
-  Pazifismus: {fileID: 33406381}
-  Wissen: {fileID: 927322055}
-  "Ver\xE4nderungBereich": 10
 --- !u!4 &831083341
 Transform:
   m_ObjectHideFlags: 0
@@ -1559,7 +1574,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &831083342
 MonoBehaviour:
@@ -1581,11 +1596,18 @@ MonoBehaviour:
   startGier: {x: 0.25, y: 0.45, z: 1}
   endGier: {x: 2, y: 3.25, z: 1}
   startNeid: {x: -0.25, y: 0.45, z: 1}
-  endNeid: {x: -2, y: -3.25, z: 1}
+  endNeid: {x: -2, y: 3.25, z: 1}
   startPazifismus: {x: -0.5, y: 0, z: 1}
   endPazifismus: {x: -3.8, y: 0, z: 1}
   startWissen: {x: -0.25, y: -0.35, z: 1}
   endWissen: {x: -2, y: -3.1, z: 1}
+  KnopfLiebe: {fileID: 357828067}
+  KnopfHass: {fileID: 116743097}
+  KnopfGier: {fileID: 1359549892}
+  KnopfNeid: {fileID: 1698655958}
+  KnopfPazifismus: {fileID: 33406381}
+  KnopfWissen: {fileID: 927322055}
+  "Auswahlm\xF6glichkeiten": 3
 --- !u!114 &831083344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1900,8 +1922,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.8207547, g: 0.8207547, b: 0.8207547, a: 1}
+    m_PressedColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1921,7 +1943,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 927322056}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: AddWissen
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &927322056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2447,7 +2481,7 @@ Transform:
   m_LocalScale: {x: 17.754318, y: 10.045395, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1359549890
 GameObject:
@@ -2510,8 +2544,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.81960785, g: 0.81960785, b: 0.81960785, a: 1}
+    m_PressedColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -2531,7 +2565,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1359549893}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: AddGier
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1359549893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2710,8 +2756,8 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_HighlightedColor: {r: 0.81960785, g: 0.81960785, b: 0.81960785, a: 1}
+    m_PressedColor: {r: 0.23529412, g: 0.23529412, b: 0.23529412, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -2731,7 +2777,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1698655959}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: AddNeid
+        m_Mode: 4
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0.5
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1698655959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3378,5 +3436,5 @@ Transform:
   m_LocalScale: {x: 6.6250553, y: 8.646484, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
