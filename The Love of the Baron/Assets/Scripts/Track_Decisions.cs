@@ -140,27 +140,27 @@ private int m = 0;
 private void Update() {
 
 
+// wenn eine entscheidung nur einmal gemacht werden darf 
+//if (KnopfLiebe.IsInteractable() == false && i < 1) {   buttonCounter++; i++; }
+//else if(KnopfHass.IsInteractable() == false && h <1) {   buttonCounter++; h++;}
+//else if(KnopfNeid.IsInteractable() == false && j<1) {   buttonCounter++; j++;}
+//else if(KnopfGier.IsInteractable() == false && k<1) {   buttonCounter++; k++;}
+//else if(KnopfPazifismus.IsInteractable() == false && l<1) {   buttonCounter++; l++;}
+//else if(KnopfWissen.IsInteractable() == false && m<1) {  buttonCounter++; m++;}
 
-if (KnopfLiebe.IsInteractable() == false && i < 1) {   buttonCounter++; i++; }
-else if(KnopfHass.IsInteractable() == false && h <1) {   buttonCounter++; h++;}
-else if(KnopfNeid.IsInteractable() == false && j<1) {   buttonCounter++; j++;}
-else if(KnopfGier.IsInteractable() == false && k<1) {   buttonCounter++; k++;}
-else if(KnopfPazifismus.IsInteractable() == false && l<1) {   buttonCounter++; l++;}
-else if(KnopfWissen.IsInteractable() == false && m<1) {  buttonCounter++; m++;}
 
+//if (buttonCounter >= Auswahlmöglichkeiten )
+//{
+//   KnopfLiebe.interactable = false;
+//   KnopfHass.interactable = false;
+//   KnopfGier.interactable = false;
+//   KnopfNeid.interactable = false; 
+//   KnopfPazifismus.interactable = false;
+//   KnopfWissen.interactable = false;
 
-if (buttonCounter >= Auswahlmöglichkeiten )
-{
-   KnopfLiebe.interactable = false;
-   KnopfHass.interactable = false;
-   KnopfGier.interactable = false;
-   KnopfNeid.interactable = false; 
-   KnopfPazifismus.interactable = false;
-   KnopfWissen.interactable = false;
+//   Invoke("endScene", Wartezeit); 
 
-   Invoke("endScene", Wartezeit); 
-
-}
+//}
 
 drawHexagon.SetPosition(0,liebe);
 drawHexagon.SetPosition(1,hass);
