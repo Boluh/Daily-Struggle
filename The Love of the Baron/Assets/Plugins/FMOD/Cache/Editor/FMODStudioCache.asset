@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637815743000235745
+  lastModified: 637815768818490405
   FileSizes:
   - Name: Desktop
-    Value: 2450048
+    Value: 8006208
   Exists: 1
 --- !u!114 &-2237149555948953392
 MonoBehaviour:
@@ -35,10 +35,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637815743000245747
+  lastModified: 637815768818510414
   FileSizes:
   - Name: Desktop
-    Value: 782
+    Value: 830
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -57,12 +57,13 @@ MonoBehaviour:
   - {fileID: -2760929934765873102}
   EditorEvents:
   - {fileID: 1678124808413127583}
+  - {fileID: 6751627458871908525}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2760929934765873102}
   StringsBanks:
   - {fileID: -2237149555948953392}
-  cacheTime: 637815743000245747
+  cacheTime: 637815768818510414
   cacheVersion: 10
 --- !u!114 &1678124808413127583
 MonoBehaviour:
@@ -86,8 +87,35 @@ MonoBehaviour:
   - {fileID: -2760929934765873102}
   IsStream: 1
   Is3D: 0
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 0
   MaxDistance: 0
   Length: 178729
+--- !u!114 &6751627458871908525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/MainGame
+  m_EditorClassIdentifier: 
+  Path: event:/MainGame
+  Guid:
+    Data1: -1144520144
+    Data2: 1283044931
+    Data3: -1127954808
+    Data4: -1729851017
+  Banks:
+  - {fileID: -2760929934765873102}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 422951
