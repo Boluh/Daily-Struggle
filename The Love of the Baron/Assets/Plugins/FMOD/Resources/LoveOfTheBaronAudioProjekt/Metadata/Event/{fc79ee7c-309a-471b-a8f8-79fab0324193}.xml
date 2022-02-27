@@ -23,7 +23,6 @@
 			<destination>{b4049099-b444-43fa-a573-6f2738cf3668}</destination>
 		</relationship>
 		<relationship name="markerTracks">
-			<destination>{6f82a97e-a537-4811-ac05-f20d1ac69335}</destination>
 			<destination>{c3068a08-6d80-4dab-99b2-cdc429b56a6b}</destination>
 		</relationship>
 		<relationship name="groupTracks">
@@ -64,7 +63,6 @@
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{b4049099-b444-43fa-a573-6f2738cf3668}" />
-	<object class="MarkerTrack" id="{6f82a97e-a537-4811-ac05-f20d1ac69335}" />
 	<object class="MarkerTrack" id="{c3068a08-6d80-4dab-99b2-cdc429b56a6b}" />
 	<object class="GroupTrack" id="{48d5bff9-1d90-4585-ac15-23826b938e28}">
 		<relationship name="modules">
@@ -79,8 +77,8 @@
 			<destination>{2aee23b6-3ed4-42f5-b398-661a4ee4d177}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{b9182dab-7f8c-48b8-a451-ca29f0a3e12a}</destination>
 			<destination>{32014cc3-dbe7-41e3-80a8-7cf48afe9f6b}</destination>
+			<destination>{61fecc27-2eff-4d59-a1a5-9efe0effc17f}</destination>
 		</relationship>
 	</object>
 	<object class="ActionSheet" id="{7b6d7db9-ba07-43a5-b460-2ec60848baa4}">
@@ -128,20 +126,6 @@
 			<destination>{bc526e57-aa08-4e61-a22a-50951e5259cb}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{b9182dab-7f8c-48b8-a451-ca29f0a3e12a}">
-		<property name="position">
-			<value>0</value>
-		</property>
-		<property name="length">
-			<value>2</value>
-		</property>
-		<relationship name="timeline">
-			<destination>{ef3a21cc-dff7-44d7-bf0d-e383eeb2c8e4}</destination>
-		</relationship>
-		<relationship name="markerTrack">
-			<destination>{6f82a97e-a537-4811-ac05-f20d1ac69335}</destination>
-		</relationship>
-	</object>
 	<object class="TransitionMarker" id="{32014cc3-dbe7-41e3-80a8-7cf48afe9f6b}">
 		<property name="position">
 			<value>178.72979591836736</value>
@@ -153,7 +137,27 @@
 			<destination>{c3068a08-6d80-4dab-99b2-cdc429b56a6b}</destination>
 		</relationship>
 		<relationship name="destination">
-			<destination>{b9182dab-7f8c-48b8-a451-ca29f0a3e12a}</destination>
+			<destination>{61fecc27-2eff-4d59-a1a5-9efe0effc17f}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{61fecc27-2eff-4d59-a1a5-9efe0effc17f}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>2</value>
+		</property>
+		<property name="name">
+			<value>Region A</value>
+		</property>
+		<property name="looping">
+			<value>0</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{ef3a21cc-dff7-44d7-bf0d-e383eeb2c8e4}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{c3068a08-6d80-4dab-99b2-cdc429b56a6b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{ab3079d2-a2db-4629-8d61-30a729df16f6}">
