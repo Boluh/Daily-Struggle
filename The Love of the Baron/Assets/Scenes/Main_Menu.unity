@@ -155,10 +155,10 @@ RectTransform:
   m_Father: {fileID: 67423278}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.00006485, y: 340}
-  m_SizeDelta: {x: 256.3243, y: 88.6805}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0.000061035156, y: 290}
+  m_SizeDelta: {x: -1197.18, y: -673.41}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &23217697
 MonoBehaviour:
@@ -193,7 +193,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Das ist ein Platzhalter
+  m_Text: 'Das ist ein Platzhalter '
 --- !u!222 &23217698
 CanvasRenderer:
   m_ObjectHideFlags: 0

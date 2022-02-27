@@ -20,4 +20,12 @@ SceneManager.LoadScene("Day", LoadSceneMode.Single);
 public void GoToFirstDay () {
     SceneManager.LoadScene("FirstDay", LoadSceneMode.Single);
 }
+
+public void GoToMainMenu () {
+    SceneManager.LoadScene("Main_Menu", LoadSceneMode.Single);
+}
+
+public void GoToDeathScreen() {
+SceneManager.LoadScene("DeathScreen", LoadSceneMode.Single);
+}
 }
