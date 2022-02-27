@@ -42,6 +42,8 @@ public int Auswahlmöglichkeiten;
 
 public float Wartezeit;
 
+public bool lastDecision = false;
+private UIManager trackDiener;
     private void Start() {
 
 
@@ -138,7 +140,15 @@ private int m = 0;
 
 
 private void Update() {
-
+if (trackDiener.DienerCount <= 3)
+{
+   KnopfLiebe.interactable = true;
+   KnopfHass.interactable = true;
+   KnopfGier.interactable = true;
+   KnopfNeid.interactable = true; 
+   KnopfPazifismus.interactable = true;
+   KnopfWissen.interactable = true;    
+}
 
 
 if (KnopfLiebe.IsInteractable() == false && i < 1) {   buttonCounter++; i++; }
@@ -158,8 +168,9 @@ if (buttonCounter >= Auswahlmöglichkeiten )
    KnopfPazifismus.interactable = false;
    KnopfWissen.interactable = false;
 
+if (lastDecision == true){
    Invoke("endScene", Wartezeit); 
-
+}
 }
 
 drawHexagon.SetPosition(0,liebe);
@@ -192,7 +203,7 @@ drawHexagon.SetPosition(5,wissen);
  
  //PlayerPrefs.SetFloat ("WissenX", startWissen.x);
  //PlayerPrefs.SetFloat ("WissenY", startWissen.y);
- print(liebe);
+
  
  }
 
