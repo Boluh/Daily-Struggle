@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 public class Resources : MonoBehaviour
 {
     public int Geld;
@@ -25,5 +26,9 @@ public class Resources : MonoBehaviour
    strength = Stärke.ToString();
    AusgabeStärke.text = strength;
 
+if (Geld == 0 && Zuneigung == 0 && Stärke == 0)
+{
+    SceneManager.LoadScene("DeathScreen", LoadSceneMode.Single);  
+}
     }
 }
