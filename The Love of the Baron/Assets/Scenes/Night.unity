@@ -2007,7 +2007,7 @@ MonoBehaviour:
   KnopfNeid: {fileID: 1583335435}
   KnopfPazifismus: {fileID: 1583335435}
   KnopfWissen: {fileID: 1583335435}
-  "Auswahlm\xF6glichkeiten": 3
+  "Auswahlm\xF6glichkeiten": 1
   Wartezeit: 0
 --- !u!114 &1858931178
 MonoBehaviour:
