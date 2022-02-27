@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -25,5 +26,15 @@ public class Resources : MonoBehaviour
    strength = Stärke.ToString();
    AusgabeStärke.text = strength;
 
+    }
+
+    internal static T Load<T>(string v)
+    {
+        throw new NotImplementedException();
+    }
+
+    internal static Font Load(string v, Type type)
+    {
+        throw new NotImplementedException();
     }
 }
