@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637815768818490405
+  lastModified: 637815789395720808
   FileSizes:
   - Name: Desktop
-    Value: 8006208
+    Value: 8006112
   Exists: 1
 --- !u!114 &-2237149555948953392
 MonoBehaviour:
@@ -35,7 +35,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637815768818510414
+  lastModified: 637815789395730817
   FileSizes:
   - Name: Desktop
     Value: 830
@@ -63,7 +63,7 @@ MonoBehaviour:
   - {fileID: -2760929934765873102}
   StringsBanks:
   - {fileID: -2237149555948953392}
-  cacheTime: 637815768818510414
+  cacheTime: 637815789395730817
   cacheVersion: 10
 --- !u!114 &1678124808413127583
 MonoBehaviour:
