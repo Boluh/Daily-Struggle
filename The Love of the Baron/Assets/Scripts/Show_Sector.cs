@@ -25,5 +25,8 @@ public class Show_Sector : MonoBehaviour
         }
         else {Sector.SetActive(false);
         UI.SetActive(true); }
+
     }
+
+
 }
