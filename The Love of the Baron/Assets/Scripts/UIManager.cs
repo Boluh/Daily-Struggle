@@ -6,7 +6,6 @@ public class UIManager : MonoBehaviour
     public GameObject Entscheidungen;
     public GameObject Bereiche;
     public GameObject Diener;
-
     private float checkInput;
 
     public string activeDiener;
@@ -15,7 +14,7 @@ public class UIManager : MonoBehaviour
     private float WarteZeiten;
 
 private void OnEnable() {
-    Entscheidungen.transform.position = new Vector3 (0,10000000,0);
+    Entscheidungen.SetActive(false);
     Bereiche.SetActive(false);
     Diener.SetActive(true);
     }
@@ -36,10 +35,9 @@ private void OnEnable() {
     }
 
     public void goToDecisions(){
-    Entscheidungen.transform.position = new Vector3 (0,0,0);
+    Entscheidungen.SetActive(true);
     Bereiche.SetActive(false);
     Diener.SetActive(false);
-    
     }
     public void goToDiener() {
     Invoke("setToDiener",3);
@@ -58,10 +56,9 @@ private void OnEnable() {
     }
 
     private void setToDiener() {
-    Entscheidungen.transform.position = new Vector3 (0,10000000,0);
+    Entscheidungen.SetActive(false);
     Bereiche.SetActive(false);
-    Diener.SetActive(true);   
-      
+    Diener.SetActive(true);         
     }
 
     }
