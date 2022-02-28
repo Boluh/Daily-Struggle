@@ -37,13 +37,12 @@ public Button KnopfGier;
 public Button KnopfNeid;
 public Button KnopfPazifismus;
 public Button KnopfWissen;
-private int buttonCounter = 0;
+private int DienerCount = 0;
 public int Auswahlmöglichkeiten;
 
 public float Wartezeit;
 
-public bool lastDecision = false;
-private UIManager trackDiener;
+
     private void Start() {
 
 
@@ -131,47 +130,18 @@ KnopfGier.interactable = false;
  }
 
 
-private int i = 0;
-private int h = 0;
-private int j = 0;
-private int k = 0;
-private int l = 0;
-private int m = 0;
 
+private void start() {
 
-private void Update() {
-if (trackDiener.DienerCount <= 3)
-{
    KnopfLiebe.interactable = true;
    KnopfHass.interactable = true;
    KnopfGier.interactable = true;
    KnopfNeid.interactable = true; 
    KnopfPazifismus.interactable = true;
    KnopfWissen.interactable = true;    
+ 
 }
-
-
-if (KnopfLiebe.IsInteractable() == false && i < 1) {   buttonCounter++; i++; }
-else if(KnopfHass.IsInteractable() == false && h <1) {   buttonCounter++; h++;}
-else if(KnopfNeid.IsInteractable() == false && j<1) {   buttonCounter++; j++;}
-else if(KnopfGier.IsInteractable() == false && k<1) {   buttonCounter++; k++;}
-else if(KnopfPazifismus.IsInteractable() == false && l<1) {   buttonCounter++; l++;}
-else if(KnopfWissen.IsInteractable() == false && m<1) {  buttonCounter++; m++;}
-
-
-if (buttonCounter >= Auswahlmöglichkeiten )
-{
-   KnopfLiebe.interactable = false;
-   KnopfHass.interactable = false;
-   KnopfGier.interactable = false;
-   KnopfNeid.interactable = false; 
-   KnopfPazifismus.interactable = false;
-   KnopfWissen.interactable = false;
-
-if (lastDecision == true){
-   Invoke("endScene", Wartezeit); 
-}
-}
+private void Update() {
 
 drawHexagon.SetPosition(0,liebe);
 drawHexagon.SetPosition(1,hass);
@@ -179,7 +149,15 @@ drawHexagon.SetPosition(2,gier);
 drawHexagon.SetPosition(3,neid);
 drawHexagon.SetPosition(4,pazifismus);    
 drawHexagon.SetPosition(5,wissen);
+
+if ( DienerCount >= 2 && KnopfGier.interactable == false)
+{
+    Invoke("endScene", Wartezeit);
 }
+
+}
+
+
 
  private void OnDestroy() {
  
@@ -210,6 +188,17 @@ drawHexagon.SetPosition(5,wissen);
 private void endScene () {
  SceneManager.LoadScene("Night", LoadSceneMode.Single);
  }
+
+public void setButtonsInteraktable (bool MakeIt) {
+   KnopfLiebe.interactable = MakeIt;
+   KnopfHass.interactable = MakeIt;
+   KnopfGier.interactable = MakeIt;
+   KnopfNeid.interactable = MakeIt; 
+   KnopfPazifismus.interactable = MakeIt;
+   KnopfWissen.interactable = MakeIt;  
+}
+
+public void upDienerCount() { DienerCount++; }
 
 
 }

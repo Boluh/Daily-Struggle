@@ -11,17 +11,16 @@ public class UIManager : MonoBehaviour
     public string activeDiener;
     public int DienerCount = 0;
     private Track_Decisions setLastDecision;
+    private float WarteZeiten;
 
 private void OnEnable() {
     Entscheidungen.SetActive(false);
     Bereiche.SetActive(false);
     Diener.SetActive(true);
     }
-    void Update()
-    { 
-        if (DienerCount >= 3){ setLastDecision.lastDecision = true;} 
-
-
+    
+    private void Update()
+    {    
 
 
     //    checkInput = Input.GetAxis("Open Sector") * Time.deltaTime * 1 ;
@@ -41,7 +40,7 @@ private void OnEnable() {
     Diener.SetActive(false);
     }
     public void goToDiener() {
-    Invoke("setToDiener",1);
+    Invoke("setToDiener",3);
     }
     public void setToBernard(){
     activeDiener = "Bernard";  DienerCount++;  
@@ -53,7 +52,7 @@ private void OnEnable() {
     activeDiener = "Josephine"; DienerCount++;
     }
     public void setToAlfons(){
-    activeDiener = "Alfons & Philippa"; DienerCount++;
+    activeDiener = "Alfons&Philippa"; DienerCount++;
     }
 
     private void setToDiener() {

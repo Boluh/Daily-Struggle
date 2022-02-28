@@ -292,6 +292,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: setButtonsInteraktable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &33406382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -519,6 +531,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: setButtonsInteraktable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &116743098
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -593,7 +617,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -674.72, y: -331.85}
+  m_AnchoredPosition: {x: 269, y: -331.85}
   m_SizeDelta: {x: 385.34, y: 416.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &145932563
@@ -676,6 +700,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: setButtonsInteraktable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: upDienerCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 831083339}
+        m_TargetAssemblyTypeName: GetText, Assembly-CSharp
+        m_MethodName: setTextAnfrage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Wolfgang
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &145932564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -755,7 +815,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -674.72, y: -331.85}
+  m_AnchoredPosition: {x: 702, y: -331.85}
   m_SizeDelta: {x: 385.34, y: 416.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &212073477
@@ -837,6 +897,42 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: setButtonsInteraktable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: upDienerCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 831083339}
+        m_TargetAssemblyTypeName: GetText, Assembly-CSharp
+        m_MethodName: setTextAnfrage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Alfons&Philippa
+          m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &212073478
 MonoBehaviour:
@@ -1097,6 +1193,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: setButtonsInteraktable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &357828068
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1274,6 +1382,7 @@ GameObject:
   m_Component:
   - component: {fileID: 519420032}
   - component: {fileID: 519420031}
+  - component: {fileID: 519420029}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1281,6 +1390,14 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!81 &519420029
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519420028}
+  m_Enabled: 1
 --- !u!20 &519420031
 Camera:
   m_ObjectHideFlags: 0
@@ -2038,7 +2155,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4395803441941473502, guid: e46476c3755a7fc4d8f40aee2d60dba3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 943.7199
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4395803441941473502, guid: e46476c3755a7fc4d8f40aee2d60dba3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -2070,6 +2187,8 @@ GameObject:
   - component: {fileID: 831083342}
   - component: {fileID: 831083344}
   - component: {fileID: 831083340}
+  - component: {fileID: 831083339}
+  - component: {fileID: 831083343}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -2077,6 +2196,26 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &831083339
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831083338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 84011df7a3b0b3b42acf63c721aea8d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anfrage: {fileID: 1055336946}
+  liebeText: {fileID: 2031053703}
+  hassText: {fileID: 611805865}
+  gierText: {fileID: 1524468802}
+  neidText: {fileID: 1793834657}
+  pazifismusText: {fileID: 1136869047}
+  wissenText: {fileID: 1859048731}
+  dayCount: 1
 --- !u!114 &831083340
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2092,7 +2231,7 @@ MonoBehaviour:
   Entscheidungen: {fileID: 291058471}
   Bereiche: {fileID: 840995640}
   Diener: {fileID: 1127561648}
-  activeDiener: NOT WORKING
+  activeDiener: 
   DienerCount: 0
 --- !u!4 &831083341
 Transform:
@@ -2140,8 +2279,19 @@ MonoBehaviour:
   KnopfPazifismus: {fileID: 33406381}
   KnopfWissen: {fileID: 927322055}
   "Auswahlm\xF6glichkeiten": 1
-  Wartezeit: 3
-  lastDecision: 0
+  Wartezeit: 2
+--- !u!114 &831083343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831083338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 179d3de7ae368414db4ef638bb3fdb07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &831083344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2523,6 +2673,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: goToDiener
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: setButtonsInteraktable
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3197,6 +3359,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: setButtonsInteraktable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1359549893
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3456,6 +3630,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: setButtonsInteraktable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: upDienerCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 831083339}
+        m_TargetAssemblyTypeName: GetText, Assembly-CSharp
+        m_MethodName: setTextAnfrage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Bernard
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1451572464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3655,7 +3865,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4395803441941473502, guid: e46476c3755a7fc4d8f40aee2d60dba3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1376.72
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4395803441941473502, guid: e46476c3755a7fc4d8f40aee2d60dba3, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3794,6 +4004,42 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: setButtonsInteraktable
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: upDienerCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 831083339}
+        m_TargetAssemblyTypeName: GetText, Assembly-CSharp
+        m_MethodName: setTextAnfrage
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Josephine
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1655254205
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3931,6 +4177,18 @@ MonoBehaviour:
         m_TargetAssemblyTypeName: UIManager, Assembly-CSharp
         m_MethodName: goToDiener
         m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 831083342}
+        m_TargetAssemblyTypeName: Track_Decisions, Assembly-CSharp
+        m_MethodName: setButtonsInteraktable
+        m_Mode: 6
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
