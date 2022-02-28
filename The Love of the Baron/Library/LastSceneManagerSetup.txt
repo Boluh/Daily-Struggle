@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/Day.unity
+=======
+- path: Assets/Scenes/Main_Menu.unity
+>>>>>>> origin/Scenes-thirdattempt]
   isLoaded: 1
   isActive: 1
   isSubScene: 0
