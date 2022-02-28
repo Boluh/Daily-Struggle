@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using System;
-
 public class Resources : MonoBehaviour
 {
     public int Geld;
@@ -32,15 +30,5 @@ if (Geld == 0 && Zuneigung == 0 && Stärke == 0)
 {
     SceneManager.LoadScene("DeathScreen", LoadSceneMode.Single);  
 }
-    }
-
-    internal static T Load<T>(string v)
-    {
-        throw new NotImplementedException();
-    }
-
-    internal static Font Load(string v, Type type)
-    {
-        throw new NotImplementedException();
     }
 }
