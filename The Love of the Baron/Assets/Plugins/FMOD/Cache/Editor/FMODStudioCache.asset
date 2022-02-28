@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637815831184351388
+  lastModified: 637816376958961252
   FileSizes:
   - Name: Desktop
-    Value: 830
+    Value: 884
   Exists: 1
 --- !u!114 &-2140426410609736832
 MonoBehaviour:
@@ -65,13 +65,41 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: 6402616434861796188}
   - {fileID: -2140426410609736832}
+  - {fileID: 3962259713861480556}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8591416430074983953}
   StringsBanks:
   - {fileID: -5198049805121221510}
-  cacheTime: 637815831184351388
+  cacheTime: 637816376958961252
   cacheVersion: 10
+--- !u!114 &3962259713861480556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/DeathScreen
+  m_EditorClassIdentifier: 
+  Path: event:/DeathScreen
+  Guid:
+    Data1: -1738711320
+    Data2: 1112110014
+    Data3: -699976302
+    Data4: -1922985607
+  Banks:
+  - {fileID: 8591416430074983953}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 32000
 --- !u!114 &6402616434861796188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -114,8 +142,8 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637815831184331379
+  lastModified: 637816376958951246
   FileSizes:
   - Name: Desktop
-    Value: 8006112
+    Value: 11877728
   Exists: 1
