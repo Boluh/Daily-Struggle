@@ -3,6 +3,7 @@
 # Get latest from https://github.com/github/gitignore/blob/main/Unity.gitignore
 #
 /[Ll]ibrary/
+/[Ll]ocal settings/
 /[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
@@ -51,7 +52,7 @@ ExportedObj/
 *.pidb.meta
 *.pdb.meta
 *.mdb.meta
-
+*.meta
 # Unity3D generated file on crash reports
 sysinfo.txt
 
@@ -68,7 +69,12 @@ crashlytics-build.properties
 /[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
 
 # Temporary auto-generated Android Assets
+
+
+/The Love of the Baron/Library/PackageCache/
+
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
+<<<<<<< Updated upstream
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 The Love of the Baron/Assets/Plugins/FMOD/Cache/Editor/FMODStudioCache.asset
 The Love of the Baron/Library/ArtifactDB
@@ -85,3 +91,6 @@ The Love of the Baron/Logs/AssetImportWorker0.log
 The Love of the Baron/Logs/shadercompiler-AssetImportWorker0.log
 The Love of the Baron/UserSettings/EditorUserSettings.asset
 The Love of the Baron/fmod_editor.log
+=======
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+>>>>>>> Stashed changes
