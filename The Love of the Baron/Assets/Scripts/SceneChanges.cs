@@ -28,4 +28,8 @@ public void GoToMainMenu () {
 public void GoToDeathScreen() {
 SceneManager.LoadScene("DeathScreen", LoadSceneMode.Single);
 }
+
+public void GoToEnd(){
+SceneManager.LoadScene("EndScene", LoadSceneMode.Single);    
+}
 }
