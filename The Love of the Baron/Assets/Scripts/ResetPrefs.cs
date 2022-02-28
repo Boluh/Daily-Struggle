@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ResetPrefs : MonoBehaviour
 {
 [SerializeField] Track_Decisions  hooka;
@@ -25,5 +26,8 @@ private void OnEnable() {
  
  PlayerPrefs.SetFloat ("WissenX", hooka.startWissen.x);
  PlayerPrefs.SetFloat ("WissenY", hooka.startWissen.y);
+
+ PlayerPrefs.SetInt("dayCount",1);
 }
+
 }

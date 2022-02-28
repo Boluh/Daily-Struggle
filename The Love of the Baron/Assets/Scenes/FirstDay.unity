@@ -995,7 +995,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &291058472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2265,10 +2265,10 @@ MonoBehaviour:
   endLiebe: {x: 2, y: -3.1, z: 1}
   startHass: {x: 0.5, y: 0, z: 1}
   endHass: {x: 3.8, y: 0, z: 1}
-  startGier: {x: 0.25, y: 0.45, z: 1}
-  endGier: {x: 2, y: 3.25, z: 1}
-  startNeid: {x: -0.25, y: 0.45, z: 1}
-  endNeid: {x: -2, y: 3.25, z: 1}
+  startGier: {x: 0.25, y: 0.35, z: 1}
+  endGier: {x: 2, y: 3.1, z: 1}
+  startNeid: {x: -0.25, y: 0.35, z: 1}
+  endNeid: {x: -2, y: 3.1, z: 1}
   startPazifismus: {x: -0.5, y: 0, z: 1}
   endPazifismus: {x: -3.8, y: 0, z: 1}
   startWissen: {x: -0.25, y: -0.35, z: 1}
@@ -2327,7 +2327,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &840995641
 Transform:
   m_ObjectHideFlags: 0
@@ -3079,7 +3079,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1127561649
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -7,9 +7,9 @@ using System;
 
 public class Resources : MonoBehaviour
 {
-    public int Geld;
-    public int Zuneigung;
-    public int Stärke;
+    public float Geld;
+    public float Zuneigung;
+    public float Stärke;
 
     public Text AusgabeGeld;
     public Text AusgabeZuneigung;
@@ -18,7 +18,8 @@ public class Resources : MonoBehaviour
     private string money;
     private string likehood;
     private string strength;
-    // Update is called once per frame
+
+
     void Update()
     { 
     money = Geld.ToString();
@@ -32,8 +33,7 @@ if (Geld == 0 && Zuneigung == 0 && Stärke == 0)
 {
     SceneManager.LoadScene("DeathScreen", LoadSceneMode.Single);  
 }
-    }
-
+    } 
     internal static T Load<T>(string v)
     {
         throw new NotImplementedException();
@@ -43,4 +43,8 @@ if (Geld == 0 && Zuneigung == 0 && Stärke == 0)
     {
         throw new NotImplementedException();
     }
+
+
+
+
 }
