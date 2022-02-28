@@ -2,12 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class ResetPrefs : MonoBehaviour
 {
-[SerializeField] Track_Decisions  hooka;
+[SerializeField] Track_Decisions  hooka; 
 
-
-private void OnEnable() {
+private void Awake() {
  PlayerPrefs.SetFloat ("LiebeX", hooka.startLiebe.x);
  PlayerPrefs.SetFloat ("LiebeY", hooka.startLiebe.y);
 
@@ -25,5 +25,14 @@ private void OnEnable() {
  
  PlayerPrefs.SetFloat ("WissenX", hooka.startWissen.x);
  PlayerPrefs.SetFloat ("WissenY", hooka.startWissen.y);
+
+ PlayerPrefs.SetInt("dayCount",1);
+ 
+ 
+ PlayerPrefs.SetFloat("Geld",100);
+ PlayerPrefs.SetFloat("Zuneigung",100);
+ PlayerPrefs.SetFloat("Stärke",100);
+ 
 }
+
 }
