@@ -15,16 +15,22 @@ public class GetText : MonoBehaviour
  public Text neidText;
  public Text pazifismusText;
  public Text wissenText;
+ public Text Intro;
 
  private string activeDiener;
-[SerializeField] public int dayCount = PlayerPrefs.GetInt("dayCount");
- 
-        void Start()
-    {
+[SerializeField] public int dayCount;
 
+private void Awake() {
+    dayCount = PlayerPrefs.GetInt("dayCount");
+}
+private void OnEnable() {
+    string recallText = Application.dataPath + "/TextAssets/" + "Introtext" + dayCount.ToString() + ".txt";
+    List<string> fileLines = File.ReadAllLines(recallText).ToList();
+
+    Intro.text = fileLines[0];        
         
-
-    }
+    
+}
 private void Update() {
 
 }

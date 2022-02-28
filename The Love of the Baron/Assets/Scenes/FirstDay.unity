@@ -2215,6 +2215,7 @@ MonoBehaviour:
   neidText: {fileID: 1793834657}
   pazifismusText: {fileID: 1136869047}
   wissenText: {fileID: 1859048731}
+  Intro: {fileID: 804187727}
   dayCount: 1
 --- !u!114 &831083340
 MonoBehaviour:
