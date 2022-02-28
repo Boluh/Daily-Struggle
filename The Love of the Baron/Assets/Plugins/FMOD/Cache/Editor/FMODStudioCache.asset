@@ -15,11 +15,38 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637816422427168309
+  lastModified: 637816509723946709
   FileSizes:
   - Name: Desktop
-    Value: 884
+    Value: 1000
   Exists: 1
+--- !u!114 &-4298335454769275417
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Button
+  m_EditorClassIdentifier: 
+  Path: event:/Button
+  Guid:
+    Data1: 1077919533
+    Data2: 1244483879
+    Data3: 403601063
+    Data4: 1803789991
+  Banks:
+  - {fileID: 8119102206463187445}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 2000
 --- !u!114 &-2140426410609736832
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62,16 +89,18 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -5198049805121221510}
   - {fileID: 8591416430074983953}
+  - {fileID: 8119102206463187445}
   EditorEvents:
   - {fileID: 6402616434861796188}
   - {fileID: -2140426410609736832}
   - {fileID: 3962259713861480556}
+  - {fileID: -4298335454769275417}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8591416430074983953}
   StringsBanks:
   - {fileID: -5198049805121221510}
-  cacheTime: 637816422427168309
+  cacheTime: 637816509724276779
   cacheVersion: 10
 --- !u!114 &3962259713861480556
 MonoBehaviour:
@@ -127,6 +156,26 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 422951
+--- !u!114 &8119102206463187445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/SFX.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/SFX.bank
+  Name: SFX
+  StudioPath: bank:/SFX
+  lastModified: 637816509724276779
+  FileSizes:
+  - Name: Desktop
+    Value: 24512
+  Exists: 1
 --- !u!114 &8591416430074983953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,8 +191,8 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637816422427148303
+  lastModified: 637816509723856688
   FileSizes:
   - Name: Desktop
-    Value: 11877728
+    Value: 11877856
   Exists: 1
