@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class SceneChanges : MonoBehaviour
 {
 
-
+private int sceneToChange;
     // Start is called before the first frame update
 public void GoToNight () {
 
@@ -31,5 +31,14 @@ SceneManager.LoadScene("DeathScreen", LoadSceneMode.Single);
 public void GoToEnd(){
 SceneManager.LoadScene("EndScene", LoadSceneMode.Single); 
  
+}
+
+public void continueAtLastScene (){
+    sceneToChange = PlayerPrefs.GetInt("SavedScene");
+    if (sceneToChange != 0){SceneManager.LoadScene(sceneToChange);}
+    else
+    {
+        return;
+    }
 }
 }
