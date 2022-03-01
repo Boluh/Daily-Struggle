@@ -2779,6 +2779,7 @@ GameObject:
   - component: {fileID: 831083339}
   - component: {fileID: 831083343}
   - component: {fileID: 831083345}
+  - component: {fileID: 831083346}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -2926,6 +2927,19 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
+--- !u!114 &831083346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831083338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b3799a96d97e24d80ccc979510a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SectionWheel: {fileID: 840995640}
 --- !u!1 &840995640
 GameObject:
   m_ObjectHideFlags: 0

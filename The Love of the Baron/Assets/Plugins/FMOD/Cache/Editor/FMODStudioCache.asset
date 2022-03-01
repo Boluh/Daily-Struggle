@@ -15,10 +15,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637816859959035300
+  lastModified: 637817367507124470
   FileSizes:
   - Name: Desktop
-    Value: 1000
+    Value: 1070
   Exists: 1
 --- !u!114 &-4298335454769275417
 MonoBehaviour:
@@ -95,13 +95,42 @@ MonoBehaviour:
   - {fileID: -2140426410609736832}
   - {fileID: 3962259713861480556}
   - {fileID: -4298335454769275417}
+  - {fileID: 6219238996383865789}
+  - {fileID: 3948365269681204326}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8591416430074983953}
   StringsBanks:
   - {fileID: -5198049805121221510}
-  cacheTime: 637816859959035300
+  cacheTime: 637817367508474775
   cacheVersion: 10
+--- !u!114 &3948365269681204326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/night
+  m_EditorClassIdentifier: 
+  Path: event:/night
+  Guid:
+    Data1: 950702476
+    Data2: 1157704686
+    Data3: -1796173162
+    Data4: 361881278
+  Banks:
+  - {fileID: 8591416430074983953}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 372000
 --- !u!114 &3962259713861480556
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -129,6 +158,33 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 32000
+--- !u!114 &6219238996383865789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/win
+  m_EditorClassIdentifier: 
+  Path: event:/win
+  Guid:
+    Data1: -2034711690
+    Data2: 1149442147
+    Data3: -1970510423
+    Data4: -87916802
+  Banks:
+  - {fileID: 8591416430074983953}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 277577
 --- !u!114 &6402616434861796188
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -171,7 +227,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 637816859959035300
+  lastModified: 637817367508474775
   FileSizes:
   - Name: Desktop
     Value: 24512
@@ -191,8 +247,8 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637816859959015286
+  lastModified: 637817367507028922
   FileSizes:
   - Name: Desktop
-    Value: 11877856
+    Value: 20608448
   Exists: 1

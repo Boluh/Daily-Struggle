@@ -2078,6 +2078,8 @@ GameObject:
   - component: {fileID: 1858931181}
   - component: {fileID: 1858931179}
   - component: {fileID: 1858931182}
+  - component: {fileID: 1858931183}
+  - component: {fileID: 1858931184}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -2185,6 +2187,49 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 680316313}
+--- !u!114 &1858931183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858931176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 950702476
+      Data2: 1157704686
+      Data3: -1796173162
+      Data4: 361881278
+    Path: event:/night
+  Event: 
+  PlayEvent: 1
+  StopEvent: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &1858931184
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858931176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26b3799a96d97e24d80ccc979510a699, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SectionWheel: {fileID: 812811156}
 --- !u!1 &1934804852
 GameObject:
   m_ObjectHideFlags: 0

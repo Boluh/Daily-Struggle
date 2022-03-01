@@ -6,7 +6,6 @@ public class UIManager : MonoBehaviour
     public GameObject Entscheidungen;
     public GameObject Bereiche;
     public GameObject Diener;
-
     private float checkInput;
 
     public string activeDiener;
@@ -21,19 +20,19 @@ private void OnEnable() {
     }
     
     private void Update()
-    {    
+    {
 
-
-    //    checkInput = Input.GetAxis("Open Sector") * Time.deltaTime * 1 ;
-    //    if (checkInput != 0 ) {
-    //        Bereiche.SetActive(true);
-    //        Bereiche.transform.position = new Vector3 (0,0,0);
-    //        Entscheidungen.SetActive(false);
-    //        Diener.SetActive(false); 
-    //    }
-    //    else {Bereiche.SetActive(false);   }
+        //    checkInput = Input.GetAxis("Open Sector") * Time.deltaTime * 1 ;
+        //    if (checkInput != 0 ) {
+        //        Bereiche.SetActive(true);
+        //        Bereiche.transform.position = new Vector3 (0,0,0);
+        //        Entscheidungen.SetActive(false);
+        //        Diener.SetActive(false); 
+        //    }
+        //    else {Bereiche.SetActive(false);   }
 
     }
+
 
     public void goToDecisions(){
     Entscheidungen.transform.position = new Vector3 (0,0,0);
