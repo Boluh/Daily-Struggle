@@ -7,7 +7,7 @@ public class ResetPrefs : MonoBehaviour
 {
 [SerializeField] Track_Decisions  hooka; 
 
-private void Awake() {
+private void OnEnable() {
  PlayerPrefs.SetFloat ("LiebeX", hooka.startLiebe.x);
  PlayerPrefs.SetFloat ("LiebeY", hooka.startLiebe.y);
 
