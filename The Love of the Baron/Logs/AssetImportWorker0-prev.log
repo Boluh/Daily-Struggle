@@ -15,11 +15,11 @@ W:/Uni/GameJam_02_2022/Unity Projekt/Daily-Struggle/The Love of the Baron
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-63585
+52090
 Successfully changed project path to: W:/Uni/GameJam_02_2022/Unity Projekt/Daily-Struggle/The Love of the Baron
 W:/Uni/GameJam_02_2022/Unity Projekt/Daily-Struggle/The Love of the Baron
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.58 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 60.56 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.30f1 (1fb1bf06830e)
 [Subsystems] Discovering subsystems at path W:/Uni/Unity Installs/2020.3.30f1/Editor/Data/Resources/UnitySubsystems
@@ -35,33 +35,33 @@ Initialize mono
 Mono path[0] = 'W:/Uni/Unity Installs/2020.3.30f1/Editor/Data/Managed'
 Mono path[1] = 'W:/Uni/Unity Installs/2020.3.30f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'W:/Uni/Unity Installs/2020.3.30f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: W:/Uni/Unity Installs/2020.3.30f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001083 seconds.
+Registered in 0.001158 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.41 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 47.37 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.494 seconds
+- Completed reload, in  0.501 seconds
 Domain Reload Profiling:
-	ReloadAssembly (494ms)
-		BeginReloadAssembly (62ms)
+	ReloadAssembly (501ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (377ms)
-			LoadAssemblies (61ms)
+		EndReloadAssembly (379ms)
+			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
+			SetupTypeCache (120ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (25ms)
 			SetupLoadedEditorAssemblies (150ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (47ms)
 				BeforeProcessingInitializeOnLoad (12ms)
@@ -73,107 +73,107 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004762 seconds.
+Registered in 0.004827 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001C4F8FC2010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-0000019E872B5010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F3C91DE0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-0000019E82BDED20 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84F1820 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000019E86FE7830 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F860C020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-0000019E8319D190 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8FC2010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-0000019E872D9C20 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F932C030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-0000019E870313E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8FD5220 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000019E8731C220 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F932C030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000019E83746640 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F911F230 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000019E83746640 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4183390 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000019E872D9C20 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F47AA010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000019E86B7E020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F47D8220 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000019E86BAC230 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F86439F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-0000019E86FE7830 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F47D8220 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000019E872D9C20 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F47179B0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-0000019E83746640 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4183390 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-0000019E83746640 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F89128E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
+Symbol file data-0000019E879BD380 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F846F3F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000019E86C7AC40 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8BA7010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000019E835439F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F47E9630 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000019E8725B830 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F89144F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-0000019E880C98A0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8BB8C20 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000019E83555600 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8B49010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000019E874D1010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9127240 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-0000019E86BBD640 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F846F3F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000019E8725B830 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8B49010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-0000019E87153620 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84F1820 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-0000019E86BBD640 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F80B2030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-0000019E86A5D030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8859630 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
+Symbol file data-0000019E82FCC020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F7F92010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000019E836C8450 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8B87620 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000019E87C11E50 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4133010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000019E83793DD0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F41A7DB0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-0000019E87B6BC80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F47179B0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-0000019E86C7AC40 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F80B2030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
+Symbol file data-0000019E86A5D030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84F1820 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-0000019E86BBD640 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9377E30 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-0000019E82FCC020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 46.64 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 46.14 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
+- Completed reload, in  0.968 seconds
 Domain Reload Profiling:
-	ReloadAssembly (932ms)
-		BeginReloadAssembly (137ms)
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (177ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (747ms)
-			LoadAssemblies (97ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (744ms)
+			LoadAssemblies (105ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (240ms)
+			SetupTypeCache (242ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (284ms)
+			SetupLoadedEditorAssemblies (281ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (47ms)
-				BeforeProcessingInitializeOnLoad (63ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (62ms)
 				ProcessInitializeOnLoadAttributes (154ms)
 				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (2ms)
@@ -184,14 +184,14 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.99 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2386 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 104.7 MB.
 System memory in use after: 104.8 MB.
 
 Unloading 86 unused Assets to reduce memory usage. Loaded Objects now: 2765.
-Total: 3.682900 ms (FindLiveObjects: 0.228100 ms CreateObjectMapping: 0.063300 ms MarkObjects: 3.204900 ms  DeleteObjects: 0.185500 ms)
+Total: 4.044500 ms (FindLiveObjects: 0.264200 ms CreateObjectMapping: 0.071400 ms MarkObjects: 3.534500 ms  DeleteObjects: 0.173700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -205,341 +205,134 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/TextAssets/Intro Tag1.txt
-  artifactKey: Guid(9e0ef37abfaa159438fc3854bad3fedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag1.txt using Guid(9e0ef37abfaa159438fc3854bad3fedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf730994edc03674312edeae12de33b4') in 0.047359 seconds 
+  path: Assets/Scenes/Day.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Day.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dcd60f6b92e50cdc2d9ff3e5047712f') in 0.033415 seconds 
 ========================================================================
-Received Import Request.
-  Time since last request: 26.332412 seconds.
-  path: Assets/TextAssets/Introtext2.txt
-  artifactKey: Guid(9e0ef37abfaa159438fc3854bad3fedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Introtext2.txt using Guid(9e0ef37abfaa159438fc3854bad3fedc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb39fd09b533d9eb851f341554da05e') in 0.022842 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.639475 seconds.
-  path: Assets/TextAssets/Intro Tag3.txt
-  artifactKey: Guid(bc866909f2004ba47a82605c0e9118f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag3.txt using Guid(bc866909f2004ba47a82605c0e9118f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59780a2bb7aced33b471e0661778ec8f') in 0.022874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.690817 seconds.
-  path: Assets/TextAssets/Introtext3.txt
-  artifactKey: Guid(bc866909f2004ba47a82605c0e9118f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Introtext3.txt using Guid(bc866909f2004ba47a82605c0e9118f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6830e0aad1a420a68291b2a5c5f13ab5') in 0.022997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.402712 seconds.
-  path: Assets/TextAssets/Intro Tag5.txt
-  artifactKey: Guid(fcbc5cbb75ff832439ab24368beec0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag5.txt using Guid(fcbc5cbb75ff832439ab24368beec0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b59b8b413939f720bd21c94b3f029d') in 0.022796 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.608390 seconds.
-  path: Assets/TextAssets/Introtext4.txt
-  artifactKey: Guid(fcbc5cbb75ff832439ab24368beec0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Introtext4.txt using Guid(fcbc5cbb75ff832439ab24368beec0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95de4cf15e86638c1a32bd760742184c') in 0.023259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 54.722875 seconds.
-  path: Assets/TextAssets/Intro Tag2.txt
-  artifactKey: Guid(4c016a42367e29e4cae30233cf17da90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag2.txt using Guid(4c016a42367e29e4cae30233cf17da90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c427c92bcb4c0d25d8633dca973c2f2') in 0.022953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.533931 seconds.
-  path: Assets/TextAssets/Introtext3.txt
-  artifactKey: Guid(4c016a42367e29e4cae30233cf17da90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Introtext3.txt using Guid(4c016a42367e29e4cae30233cf17da90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11822724592fa3b29cf5e4f5d86060bd') in 0.021719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.350945 seconds.
-  path: Assets/TextAssets/Introtext4.txt
-  artifactKey: Guid(bc866909f2004ba47a82605c0e9118f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Introtext4.txt using Guid(bc866909f2004ba47a82605c0e9118f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cdf66d15ca4a725f47414230e5787f') in 0.021677 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.053224 seconds.
-  path: Assets/TextAssets/Intro Tag4.txt
-  artifactKey: Guid(c7d074ba39695a648bff668aae5257ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag4.txt using Guid(c7d074ba39695a648bff668aae5257ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78236fd1739375d7eb381b4dde9a9ef9') in 0.023130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.512481 seconds.
-  path: Assets/TextAssets/Introtext5.txt
-  artifactKey: Guid(c7d074ba39695a648bff668aae5257ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Introtext5.txt using Guid(c7d074ba39695a648bff668aae5257ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e4f70becaf0cfe1cee775be959d9b94') in 0.022825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.720644 seconds.
-  path: Assets/TextAssets/Introtext6.txt
-  artifactKey: Guid(fcbc5cbb75ff832439ab24368beec0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Introtext6.txt using Guid(fcbc5cbb75ff832439ab24368beec0a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6ebf19478552e2b58bde2d88ec1ae3') in 0.022764 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.922099 seconds.
-  path: Assets/TextAssets/Intro Tag6.txt
-  artifactKey: Guid(b861fb2e6afc76643bba44db88e42e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag6.txt using Guid(b861fb2e6afc76643bba44db88e42e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f281e2ec40d9cc9344a7d5bedbe442a6') in 0.022478 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.650233 seconds.
-  path: Assets/TextAssets/Introtext7.txt
-  artifactKey: Guid(b861fb2e6afc76643bba44db88e42e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Introtext7.txt using Guid(b861fb2e6afc76643bba44db88e42e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32803c64419b0943f5712607055d0c17') in 0.022504 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.744191 seconds.
-  path: Assets/TextAssets/Intro Tag7.txt
-  artifactKey: Guid(62d22bf12ceeed74fba91f2df47fc1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag7.txt using Guid(62d22bf12ceeed74fba91f2df47fc1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b6661acc44348b2afe2ee9cf9ea664') in 0.022447 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.081606 seconds.
-  path: Assets/TextAssets/Introtext8.txt
-  artifactKey: Guid(62d22bf12ceeed74fba91f2df47fc1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Introtext8.txt using Guid(62d22bf12ceeed74fba91f2df47fc1f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38fcaa13b94c0b21bc1e3ecbe545b700') in 0.022806 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.907818 seconds.
-  path: Assets/TextAssets/Intro Tag8.txt
-  artifactKey: Guid(2cd0eb3717ae7574fa0d08d7114ad083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag8.txt using Guid(2cd0eb3717ae7574fa0d08d7114ad083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03821e6e5a20374c9c4deaf702e026ac') in 0.022420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.589466 seconds.
-  path: Assets/TextAssets/Introtext9.txt
-  artifactKey: Guid(2cd0eb3717ae7574fa0d08d7114ad083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Introtext9.txt using Guid(2cd0eb3717ae7574fa0d08d7114ad083) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bfaae21cd6f122a83657137d7aa2f60') in 0.021997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.794965 seconds.
-  path: Assets/TextAssets/Intro Tag9.txt
-  artifactKey: Guid(703507f487f1a234380ad31b26defd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag9.txt using Guid(703507f487f1a234380ad31b26defd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '854b7e23adeb3911e8fa83eca2e0a2d7') in 0.022323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.196173 seconds.
-  path: Assets/TextAssets/Introtext10.txt
-  artifactKey: Guid(703507f487f1a234380ad31b26defd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Introtext10.txt using Guid(703507f487f1a234380ad31b26defd25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a4e7b6be1a153b7aec4ef0116eec3e') in 0.022195 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 120.364891 seconds.
-  path: Assets/Scenes/Night.unity
-  artifactKey: Guid(38957b9ebe3787d4eac5931b358a3ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Night.unity using Guid(38957b9ebe3787d4eac5931b358a3ab0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc627dd722a896a46a870daf8efbac99') in 0.022700 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 153.605025 seconds.
-  path: Assets/TextAssets/Ende Tag 1-4.txt
-  artifactKey: Guid(52a04f8780b3d284b92b2764f75e9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Ende Tag 1-4.txt using Guid(52a04f8780b3d284b92b2764f75e9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5972fae7e96fc4dd374794c413e7148d') in 0.023385 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.899329 seconds.
-  path: Assets/TextAssets/Endetag1.txt
-  artifactKey: Guid(52a04f8780b3d284b92b2764f75e9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Endetag1.txt using Guid(52a04f8780b3d284b92b2764f75e9150) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d251c11a2d006bd0c678690cf9826a') in 0.022222 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.910837 seconds.
-  path: Assets/TextAssets/Endetag1 1.txt
-  artifactKey: Guid(00ca928ecee13a24092e0c7dc4ee552d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Endetag1 1.txt using Guid(00ca928ecee13a24092e0c7dc4ee552d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20532e0c8f477cfbb835fbbd9ede07a6') in 0.022400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.600550 seconds.
-  path: Assets/TextAssets/Endetag1 2.txt
-  artifactKey: Guid(dd7bbdd9e10be53418ad985881b5c0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Endetag1 2.txt using Guid(dd7bbdd9e10be53418ad985881b5c0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf216e1b06845c367c2fc36a88aeeba') in 0.022528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.566283 seconds.
-  path: Assets/TextAssets/Endetag1 3.txt
-  artifactKey: Guid(0343f178ddff9e14c817b337f8b534a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Endetag1 3.txt using Guid(0343f178ddff9e14c817b337f8b534a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f22b31c2918b675192cb41e46f030c00') in 0.023655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.521127 seconds.
-  path: Assets/TextAssets/Endetag2.txt
-  artifactKey: Guid(dd7bbdd9e10be53418ad985881b5c0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Endetag2.txt using Guid(dd7bbdd9e10be53418ad985881b5c0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2780b04cdf1dddd6bc3cfa3dc4dd822b') in 0.022469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.350450 seconds.
-  path: Assets/TextAssets/Endetag3.txt
-  artifactKey: Guid(0343f178ddff9e14c817b337f8b534a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Endetag3.txt using Guid(0343f178ddff9e14c817b337f8b534a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb5f42d6128f85b0c4c58675e252981f') in 0.022608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.485201 seconds.
-  path: Assets/TextAssets/Endetag4.txt
-  artifactKey: Guid(00ca928ecee13a24092e0c7dc4ee552d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Endetag4.txt using Guid(00ca928ecee13a24092e0c7dc4ee552d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf019b06d94e31c669f1bd27023763c') in 0.022486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.958382 seconds.
-  path: Assets/TextAssets/Intro Tag 5-9.txt
-  artifactKey: Guid(416ddc3461d302145b8264433b72bb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag 5-9.txt using Guid(416ddc3461d302145b8264433b72bb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8128a8495513b2399934fb96a8dbcfe') in 0.022075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.231752 seconds.
-  path: Assets/TextAssets/Intro Tag 5-9 1.txt
-  artifactKey: Guid(3c5b6138c9b12a443967275bdee1e0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag 5-9 1.txt using Guid(3c5b6138c9b12a443967275bdee1e0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6219250a811c39b464fd35db4eb8f47e') in 0.022213 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.639069 seconds.
-  path: Assets/TextAssets/Intro Tag 5-9 2.txt
-  artifactKey: Guid(24ecb25939a0ca04bb358fdc527e699f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag 5-9 2.txt using Guid(24ecb25939a0ca04bb358fdc527e699f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d8d686a62f309c5d0c9c8b4ed8d8476') in 0.022617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.539459 seconds.
-  path: Assets/TextAssets/Intro Tag 5-9 3.txt
-  artifactKey: Guid(0477f4f0b1c46da41a0726e586d8bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag 5-9 3.txt using Guid(0477f4f0b1c46da41a0726e586d8bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2c07caad50432236934fb2dfec41a0') in 0.022454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.699521 seconds.
-  path: Assets/TextAssets/Intro Tag 5-9 4.txt
-  artifactKey: Guid(8187cbadcf1c121469283d9d0c0240c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Intro Tag 5-9 4.txt using Guid(8187cbadcf1c121469283d9d0c0240c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f7a7d1db096a9727d339a3bed405e71') in 0.022586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.579306 seconds.
-  path: Assets/TextAssets/Endetag5.txt
-  artifactKey: Guid(3c5b6138c9b12a443967275bdee1e0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Endetag5.txt using Guid(3c5b6138c9b12a443967275bdee1e0f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b019f3b6d3bc5546c8488c03a9f9c8c7') in 0.022548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.539801 seconds.
-  path: Assets/TextAssets/Endetag6.txt
-  artifactKey: Guid(24ecb25939a0ca04bb358fdc527e699f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Endetag6.txt using Guid(24ecb25939a0ca04bb358fdc527e699f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9089f796c3f811691702d976aa5fc69b') in 0.023176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.163939 seconds.
-  path: Assets/TextAssets/Endetag7.txt
-  artifactKey: Guid(0477f4f0b1c46da41a0726e586d8bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Endetag7.txt using Guid(0477f4f0b1c46da41a0726e586d8bace) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c7f87b62eb6ca07eb23271c66d48d0') in 0.022482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.443615 seconds.
-  path: Assets/TextAssets/Endetag8.txt
-  artifactKey: Guid(8187cbadcf1c121469283d9d0c0240c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Endetag8.txt using Guid(8187cbadcf1c121469283d9d0c0240c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7313debdb0c6d324fee409450b5c90') in 0.022299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.894428 seconds.
-  path: Assets/TextAssets/Endetag9.txt
-  artifactKey: Guid(416ddc3461d302145b8264433b72bb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextAssets/Endetag9.txt using Guid(416ddc3461d302145b8264433b72bb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b832ce7e33244f440fd5dabba901a72e') in 0.023373 seconds 
+Received Prepare
+Refreshing native plugins compatible for Editor in 16.48 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.6 MB.
+System memory in use after: 57.7 MB.
+
+Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 2765.
+Total: 4.285400 ms (FindLiveObjects: 0.252600 ms CreateObjectMapping: 0.063600 ms MarkObjects: 3.820900 ms  DeleteObjects: 0.147700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004996 seconds.
+Registered in 0.005120 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file data-000001C4F4559010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
+Symbol file data-0000019E8700CD70 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD0038B0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
+Symbol file data-0000019E8BBAA7D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8869640 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
+Symbol file data-0000019E83434920 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC8547B0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
+Symbol file data-0000019E8C22BCB0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9230E40 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
+Symbol file data-0000019E89DC4040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F986A040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
+Symbol file data-0000019E8342B020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F44655C0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
+Symbol file data-0000019E86E41020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F95D5300 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
+Symbol file data-0000019E867A0440 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F986A040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
+Symbol file data-0000019E89DC4040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9230E40 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
+Symbol file data-0000019E89DC4040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8756020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
+Symbol file data-0000019E884F0010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC068020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
+Symbol file data-0000019E87C30020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8869640 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
+Symbol file data-0000019E8703AF80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F44655C0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
+Symbol file data-0000019E86E41020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F95D5300 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
+Symbol file data-0000019E8342B020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9CC9010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
+Symbol file data-0000019E8342B020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD53AF50 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
+Symbol file data-0000019E8C0801C0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F95D5300 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
+Symbol file data-0000019E83398420 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4755F50 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
+Symbol file data-0000019E86D25020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F3F88010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
+Symbol file data-0000019E8725B830 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD6EE860 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
+Symbol file data-0000019E89E71C20 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F910F230 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
+Symbol file data-0000019E872B5010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9DB9020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
+Symbol file data-0000019E874D1010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F7DE7420 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
+Symbol file data-0000019E87D2DC30 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F3F88010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
+Symbol file data-0000019E88517220 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F910F230 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
+Symbol file data-0000019E86D25020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4369FC0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
+Symbol file data-0000019E8C3360F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC6A3820 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
+Symbol file data-0000019E83661300 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F44655C0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
+Symbol file data-0000019E86E41020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC85A040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
+Symbol file data-0000019E837521A0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9BF9020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
+Symbol file data-0000019E86E41020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC0F0090 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
+Symbol file data-0000019E8691B860 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8195040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
+Symbol file data-0000019E86E2E270 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F95D5300 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
+Symbol file data-0000019E8A9D5E30 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC6A3820 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
+Symbol file data-0000019E83661300 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F7E0E430 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
+Symbol file data-0000019E8703AF80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
 Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F44655C0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
+Symbol file data-0000019E86E41020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
 Symbol file LoadedFromMemory is not a mono symbol file
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.04 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.851 seconds
+- Completed reload, in  0.821 seconds
 Domain Reload Profiling:
-	ReloadAssembly (852ms)
-		BeginReloadAssembly (116ms)
+	ReloadAssembly (822ms)
+		BeginReloadAssembly (113ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (689ms)
-			LoadAssemblies (96ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (663ms)
+			LoadAssemblies (94ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (232ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
+			RebuildScriptCaches (36ms)
 			SetupLoadedEditorAssemblies (241ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
+				BeforeProcessingInitializeOnLoad (77ms)
 				ProcessInitializeOnLoadAttributes (147ms)
 				ProcessInitializeOnLoadMethodAttributes (9ms)
 				AfterProcessingInitializeOnLoad (2ms)
@@ -547,144 +340,14 @@ Domain Reload Profiling:
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.14 ms, found 5 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 5 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2368 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 103.5 MB.
 System memory in use after: 103.6 MB.
 
 Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2767.
-Total: 3.458400 ms (FindLiveObjects: 0.234400 ms CreateObjectMapping: 0.064900 ms MarkObjects: 2.999600 ms  DeleteObjects: 0.158500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005362 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C4F8702020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD007980 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBD95E40 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4231070 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8957040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9BF9020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8957040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9BF9020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8957040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8702020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC25D020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBD95E40 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4222230 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9CD9030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD53A7F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC85A040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F3F88010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD6EE860 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F45A8600 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F89CF020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F7DE7420 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F3F88010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC439430 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4369FC0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4597C40 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8957040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8756020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4449010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F93F41B0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8195040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4597C40 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84F3830 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCDBC010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.824 seconds
-Domain Reload Profiling:
-	ReloadAssembly (824ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (666ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (240ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (235ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.10 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2368 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.6 MB.
-System memory in use after: 103.6 MB.
-
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2769.
-Total: 3.750100 ms (FindLiveObjects: 0.365700 ms CreateObjectMapping: 0.067800 ms MarkObjects: 3.175700 ms  DeleteObjects: 0.139400 ms)
+Total: 3.348600 ms (FindLiveObjects: 0.254500 ms CreateObjectMapping: 0.073200 ms MarkObjects: 2.871200 ms  DeleteObjects: 0.148400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -698,1307 +361,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 341.518196 seconds.
-  path: Assets/Scenes/Day.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Day.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87b97bc03f4a9512da797f3f84c2cb4') in 0.034477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 64.180673 seconds.
-  path: Assets/Scripts/GetName.cs
-  artifactKey: Guid(521929964fba1ad488bad80f1e604760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GetName.cs using Guid(521929964fba1ad488bad80f1e604760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e85196d26911500fc9c9535f12546d73') in 0.027077 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004940 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C4FDEC5010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD006E10 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FDC89060 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9D29840 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD5A6250 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD60AF80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD4F5600 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FE2B7020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD53A090 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8702020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBC1F030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C51F5FF8F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD756010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F89CF020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F7E0BE30 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBC1F030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F42E7020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB21F830 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB276710 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCDBC010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F3E4ECB0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9257050 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4692C20 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F81959A0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD6F4050 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCDBC010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.845 seconds
-Domain Reload Profiling:
-	ReloadAssembly (845ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (680ms)
-			LoadAssemblies (101ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (250ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (150ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.25 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2367 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.6 MB.
-System memory in use after: 103.6 MB.
-
-Unloading 76 unused Assets to reduce memory usage. Loaded Objects now: 2770.
-Total: 3.295300 ms (FindLiveObjects: 0.251700 ms CreateObjectMapping: 0.072800 ms MarkObjects: 2.832000 ms  DeleteObjects: 0.137900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 34.341547 seconds.
-  path: Assets/Scripts/changeNpc.cs
-  artifactKey: Guid(a93527fde7c7ec343981d28365611259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/changeNpc.cs using Guid(a93527fde7c7ec343981d28365611259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e51e936d5edc4a56b34690af6180e9') in 0.026315 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005028 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C4FD686670 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD0038B0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F966E100 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD507E50 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9BF9020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F986A040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD507E50 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD60AF80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD4F5600 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD507E50 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB968020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD53AF50 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F90E8020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB784160 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C51F5FF8F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD756010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F89CF020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F42FD510 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB784160 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC0B4020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB21F830 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4597C40 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40C0020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F3E4ECB0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F85D2030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8077110 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F81959A0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4597C40 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40C0020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.850 seconds
-Domain Reload Profiling:
-	ReloadAssembly (851ms)
-		BeginReloadAssembly (110ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (693ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (239ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.15 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2368 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.6 MB.
-System memory in use after: 103.7 MB.
-
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2773.
-Total: 3.185600 ms (FindLiveObjects: 0.238400 ms CreateObjectMapping: 0.062200 ms MarkObjects: 2.675700 ms  DeleteObjects: 0.208500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 88.068930 seconds.
-  path: Assets/Prefaps
-  artifactKey: Guid(7bd8c5198528b1a4fb6baa661a24aefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps using Guid(7bd8c5198528b1a4fb6baa661a24aefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd8b09dc5c89eecb5bc47df243c0925') in 0.025695 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.039921 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d7a4dbe8c925c3921e16a51e230b26') in 0.049286 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Prefaps/ResetPref.prefab
-  artifactKey: Guid(4eeec1750a3a6e14fb1e04b25913eec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/ResetPref.prefab using Guid(4eeec1750a3a6e14fb1e04b25913eec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e74567f3d94a3e6f90c4cd24712e5c5') in 0.023369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.983164 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd9b7f5ce8a2fa5c9d4dfa0da272aa5') in 0.023026 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005524 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C4FD686670 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD003C80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F91214A0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F97E7170 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD67A030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD5A6250 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F97E7170 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD60AF80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD4F5600 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB184020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FE2B7020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD53A7F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F3E4ECB0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCB3E010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C51F5FE2D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB3BD010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F89CF020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCAFA020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCB3E010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC0B4020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4369FC0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD497210 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB184020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8927020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F96CC030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F44761A0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8195040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD6F4050 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F97E7170 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.840 seconds
-Domain Reload Profiling:
-	ReloadAssembly (840ms)
-		BeginReloadAssembly (116ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (677ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (240ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2368 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.6 MB.
-System memory in use after: 103.7 MB.
-
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2777.
-Total: 3.712500 ms (FindLiveObjects: 0.257700 ms CreateObjectMapping: 0.063700 ms MarkObjects: 3.210900 ms  DeleteObjects: 0.179100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 15.90 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 73 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 58.0 MB.
-System memory in use after: 58.1 MB.
-
-Unloading 73 unused Assets to reduce memory usage. Loaded Objects now: 2777.
-Total: 3.427600 ms (FindLiveObjects: 0.261400 ms CreateObjectMapping: 0.064400 ms MarkObjects: 2.962100 ms  DeleteObjects: 0.139200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 822.242269 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382d4bb4b50c978f686c4f032930110c') in 0.131723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.133583 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '930d7eda7d3dc80afc34193896c19f4a') in 0.093692 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.697631 seconds.
-  path: Assets/Scripts/changeNpc.cs
-  artifactKey: Guid(a93527fde7c7ec343981d28365611259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/changeNpc.cs using Guid(a93527fde7c7ec343981d28365611259) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ba9d4bd00e2fa50e78b609ad5c3ec6') in 0.020625 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005686 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C51FB4C020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD0038B0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB900ED0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F91F0040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD67A030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9BF9020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F91F0040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD60AF80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD4F5600 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB184020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCF3E010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD53ABA0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCB67A80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBC1F030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C51F600400 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC7B6070 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F89CF020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8B91050 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBC1F030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F42E7020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4369FC0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD497210 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB184020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C51FBBC070 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F91F0040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F44761A0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8195400 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD6F4050 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F91F0040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.06 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.824 seconds
-Domain Reload Profiling:
-	ReloadAssembly (825ms)
-		BeginReloadAssembly (111ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (666ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (233ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2368 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.7 MB.
-System memory in use after: 103.8 MB.
-
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2779.
-Total: 3.475400 ms (FindLiveObjects: 0.229900 ms CreateObjectMapping: 0.071500 ms MarkObjects: 3.020500 ms  DeleteObjects: 0.152500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005259 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C51FB4C020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD0047F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9F6FD70 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD03D030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9F52010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9F52010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD03D030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD60AF80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F85DF380 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9389020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC58CDA0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD53A440 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4559010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC49E020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C51F5FF8F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC7B6070 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F89CF020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC49E020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F42E7020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4369FC0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD497210 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC33A420 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C51FBBC070 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F96CC030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC05F0A0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8195220 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD497210 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD03D030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
-Domain Reload Profiling:
-	ReloadAssembly (814ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (658ms)
-			LoadAssemblies (97ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (233ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (233ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (75ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2368 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.7 MB.
-System memory in use after: 103.8 MB.
-
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2781.
-Total: 3.284500 ms (FindLiveObjects: 0.223900 ms CreateObjectMapping: 0.061900 ms MarkObjects: 2.835700 ms  DeleteObjects: 0.162200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 300.525664 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5186e14a80e5611c6c251f2db82bcc31') in 0.110474 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005251 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C51F6E2020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD0038B0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9F74BD0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD03D030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9BF9020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9BF9020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD03D030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBFE8010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD4F5600 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB968020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD53A440 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F90E8020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCB3E010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C51F600F10 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC7B6070 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F89CF020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8B91050 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCB3E010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F42E7020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4369FC0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB276690 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBC5C020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F96CC030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F44761A0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8195400 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD6F4050 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD03D030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.829 seconds
-Domain Reload Profiling:
-	ReloadAssembly (829ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (669ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (238ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2368 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.7 MB.
-System memory in use after: 103.8 MB.
-
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2783.
-Total: 3.408800 ms (FindLiveObjects: 0.233500 ms CreateObjectMapping: 0.062400 ms MarkObjects: 2.949600 ms  DeleteObjects: 0.162600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004863 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C4FD686670 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD0038B0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9F71790 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F3E82D20 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9F52010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F96CC030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F3E82D20 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBFE8010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD4F5600 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB968020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD53A440 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F859E020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F97EF180 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C51F600F10 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC7B6070 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F89CF020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8B91050 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F97EF180 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F42E7020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4369FC0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB276690 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F84752E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FDB4D010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F96CC030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4133040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F81955E0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB276690 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F3E82D20 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
-Domain Reload Profiling:
-	ReloadAssembly (821ms)
-		BeginReloadAssembly (107ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (667ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (243ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (234ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (74ms)
-				ProcessInitializeOnLoadAttributes (143ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.04 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2368 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 103.7 MB.
-System memory in use after: 103.8 MB.
-
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2785.
-Total: 3.692400 ms (FindLiveObjects: 0.256800 ms CreateObjectMapping: 0.066300 ms MarkObjects: 3.210100 ms  DeleteObjects: 0.157700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 924.048159 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c23664a444c8c2abb33ef74079a9131') in 0.158502 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.810576 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc20d89e3717394770fef8468c26b450') in 0.094371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.847953 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb41c4f155f22980c666527933ac5985') in 0.095682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 84.518791 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '752f362570ae578c16f697a3279674b5') in 0.097964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.852566 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18de2823daf1840799128033b232df7') in 0.098043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 83.273019 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd362a0d15af9e0c90f2e920be21cd9b1') in 0.090495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.946844 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d847bba0b8a3d17ebbba56f4a14746') in 0.095871 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.851271 seconds.
-  path: Assets/Prefaps/DienerPrefap.prefab
-  artifactKey: Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefaps/DienerPrefap.prefab using Guid(e46476c3755a7fc4d8f40aee2d60dba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e55181158a783226b25782439368d2') in 0.096082 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005040 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C51FF3C060 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C54A5E57B0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F45C2450 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9F70A80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBC01020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD507E50 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBEDC030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9F52010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBC01020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBFE8010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC472860 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F45C2450 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBEDC030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB449080 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD539CE0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473ED60 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9C03840 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C51F5FAB80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC7B6070 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F89CF020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCAFA020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBC1F030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F42E7020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4369FC0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9476410 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBEDC030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FDDAEFD0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F96CC030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F44761A0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8195220 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD6F4050 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBC01020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.821 seconds
-Domain Reload Profiling:
-	ReloadAssembly (821ms)
-		BeginReloadAssembly (112ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (661ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (231ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (236ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (144ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.05 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2368 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.7 MB.
-System memory in use after: 106.7 MB.
-
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2794.
-Total: 3.156100 ms (FindLiveObjects: 0.231800 ms CreateObjectMapping: 0.072300 ms MarkObjects: 2.720200 ms  DeleteObjects: 0.131200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004810 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file data-000001C51FF3C060 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C54A5E44A0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F45C2450 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VSCode.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F9F74BD0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBC01020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD507E50 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\PsdPlugin.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FDF01060 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F96CC030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBC01020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBFE8010 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.TextMeshPro.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC472860 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.TestRunner.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F45C2450 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FDF01060 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB449080 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Path.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FD53A7F0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonanceEditor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEditor.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCB67A80 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB3F9030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Rider.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C51F5FB690 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC7B6070 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\UnityEngine.UI.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F89CF020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCAFA020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FB3F9030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Services.Core.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F42E7020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Triangle.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F4369FC0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCCF2240 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FDF01060 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnity.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FDDAEFD0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Timeline.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F96CC030 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.CollabProxy.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FC05F0A0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.Mathematics.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F8195040 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F40D9650 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FCCF2240 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\FMODUnityResonance.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4F473B0D0 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.Common.Editor.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Symbol file data-000001C4FBC01020 doesn't match image W:\Uni\GameJam_02_2022\Unity Projekt\Daily-Struggle\The Love of the Baron\Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll
-Symbol file LoadedFromMemory is not a mono symbol file
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.09 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.810 seconds
-Domain Reload Profiling:
-	ReloadAssembly (811ms)
-		BeginReloadAssembly (106ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (28ms)
-		EndReloadAssembly (657ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (232ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (35ms)
-			SetupLoadedEditorAssemblies (233ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (3ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (76ms)
-				ProcessInitializeOnLoadAttributes (142ms)
-				ProcessInitializeOnLoadMethodAttributes (9ms)
-				AfterProcessingInitializeOnLoad (2ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.06 ms, found 5 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2368 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 106.8 MB.
-System memory in use after: 106.8 MB.
-
-Unloading 75 unused Assets to reduce memory usage. Loaded Objects now: 2796.
-Total: 3.677100 ms (FindLiveObjects: 0.220300 ms CreateObjectMapping: 0.062100 ms MarkObjects: 3.239000 ms  DeleteObjects: 0.154600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  Time since last request: 189.513556 seconds.
+  path: Assets/Scenes/EndScene.unity
+  artifactKey: Guid(b27525e801965094299e38048704d211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/EndScene.unity using Guid(b27525e801965094299e38048704d211) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675ea8d243e2c19978df20ccdf7df149') in 0.033851 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
