@@ -17,7 +17,7 @@ SceneManager.LoadScene("Day", LoadSceneMode.Single);
 }
 
 public void GoToFirstDay () {
-    SceneManager.LoadScene("FirstDay", LoadSceneMode.Single);
+    SceneManager.LoadScene("Day", LoadSceneMode.Single);
 }
 
 public void GoToMainMenu () {

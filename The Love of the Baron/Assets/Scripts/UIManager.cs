@@ -6,6 +6,7 @@ public class UIManager : MonoBehaviour
     public GameObject Entscheidungen;
     public GameObject Bereiche;
     public GameObject Diener;
+    public GameObject Speechbuble;
     private float checkInput;
 
     public string activeDiener;
@@ -17,6 +18,7 @@ private void OnEnable() {
     Entscheidungen.transform.position = new Vector3 (0,10000000,0);
     Bereiche.SetActive(false);
     Diener.SetActive(true);
+    Speechbuble.SetActive(false);
     }
     
     private void Update()
@@ -38,6 +40,7 @@ private void OnEnable() {
     Entscheidungen.transform.position = new Vector3 (0,0,0);
     Bereiche.SetActive(false);
     Diener.SetActive(false);
+    Speechbuble.SetActive(true);
     
     }
     public void goToDiener() {
@@ -60,6 +63,7 @@ private void OnEnable() {
     Entscheidungen.transform.position = new Vector3 (0,10000000,0);
     Bereiche.SetActive(false);
     Diener.SetActive(true);   
+    Speechbuble.SetActive(false);
     
     }
 

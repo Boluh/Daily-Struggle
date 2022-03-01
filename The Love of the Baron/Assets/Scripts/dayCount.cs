@@ -5,7 +5,7 @@ using UnityEngine;
 public class dayCount : MonoBehaviour
 {
 private int Day = 1;
-private void OnEnable() {
+private void Start() {
 Day = PlayerPrefs.GetInt("dayCount") + 1;
 PlayerPrefs.SetInt("dayCount",Day);
 }

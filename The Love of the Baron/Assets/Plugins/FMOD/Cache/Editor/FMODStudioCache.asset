@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637817367507124470
+  lastModified: 637817391067570881
   FileSizes:
   - Name: Desktop
     Value: 1070
@@ -102,7 +102,7 @@ MonoBehaviour:
   - {fileID: 8591416430074983953}
   StringsBanks:
   - {fileID: -5198049805121221510}
-  cacheTime: 637817367508474775
+  cacheTime: 637817391067570881
   cacheVersion: 10
 --- !u!114 &3948365269681204326
 MonoBehaviour:
@@ -227,7 +227,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 637817367508474775
+  lastModified: 637816859959035300
   FileSizes:
   - Name: Desktop
     Value: 24512
@@ -247,7 +247,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/Resources/LoveOfTheBaronAudioProjekt/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637817367507028922
+  lastModified: 637817391067550864
   FileSizes:
   - Name: Desktop
     Value: 20608448

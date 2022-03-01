@@ -5,26 +5,24 @@ using UnityEngine;
 
 public class ResetPrefs : MonoBehaviour
 {
-[SerializeField] Track_Decisions  hooka; 
 
-private void OnEnable() {
- PlayerPrefs.SetFloat ("LiebeX", hooka.startLiebe.x);
- PlayerPrefs.SetFloat ("LiebeY", hooka.startLiebe.y);
+public void resetStats() {
+ PlayerPrefs.SetFloat ("LiebeY", -0.35f);
 
- PlayerPrefs.SetFloat ("HassX", hooka.startHass.x);
- PlayerPrefs.SetFloat ("HassY", hooka.startHass.y);
+ PlayerPrefs.SetFloat ("HassX", 0.5f);
+ PlayerPrefs.SetFloat ("HassY", 0);
 
- PlayerPrefs.SetFloat ("GierX", hooka.startGier.x);
- PlayerPrefs.SetFloat ("GierY", hooka.startGier.y);
+ PlayerPrefs.SetFloat ("GierX", 0.25f);
+ PlayerPrefs.SetFloat ("GierY", 0.35f);
 
- PlayerPrefs.SetFloat ("NeidX", hooka.startNeid.x);
- PlayerPrefs.SetFloat ("NeidY", hooka.startNeid.y);
+ PlayerPrefs.SetFloat ("NeidX", -0.25f);
+ PlayerPrefs.SetFloat ("NeidY", 0.35f);
  
- PlayerPrefs.SetFloat ("PaziX", hooka.startPazifismus.x);
- PlayerPrefs.SetFloat ("PaziY", hooka.startPazifismus.y);
+ PlayerPrefs.SetFloat ("PaziX", -0.5f);
+ PlayerPrefs.SetFloat ("PaziY", 0);
  
- PlayerPrefs.SetFloat ("WissenX", hooka.startWissen.x);
- PlayerPrefs.SetFloat ("WissenY", hooka.startWissen.y);
+ PlayerPrefs.SetFloat ("WissenX", -0.25f);
+ PlayerPrefs.SetFloat ("WissenY", -0.35f);
 
  PlayerPrefs.SetInt("dayCount",1);
  
@@ -32,6 +30,7 @@ private void OnEnable() {
  PlayerPrefs.SetFloat("Geld",100);
  PlayerPrefs.SetFloat("Zuneigung",100);
  PlayerPrefs.SetFloat("Stärke",100);
+PlayerPrefs.SetFloat ("LiebeX", 0.25f);
  
 }
 
