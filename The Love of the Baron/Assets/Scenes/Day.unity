@@ -939,28 +939,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 831083339}
-        m_TargetAssemblyTypeName: GetText, Assembly-CSharp
-        m_MethodName: setTextAnfrage
-        m_Mode: 5
+      - m_Target: {fileID: 243677391}
+        m_TargetAssemblyTypeName: changeNpc, Assembly-CSharp
+        m_MethodName: setToLieb
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Wolfgang
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: GetText, Assembly-CSharp
-        m_MethodName: 
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &145932564
@@ -1046,7 +1034,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &183616397
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1255,10 +1243,10 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 831083339}
-        m_TargetAssemblyTypeName: GetText, Assembly-CSharp
-        m_MethodName: setTextAnfrage
-        m_Mode: 5
+      - m_Target: {fileID: 1452842099}
+        m_TargetAssemblyTypeName: changeNpc, Assembly-CSharp
+        m_MethodName: setToLieb
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1310,6 +1298,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4065826609563785705, guid: e46476c3755a7fc4d8f40aee2d60dba3, type: 3}
   m_PrefabInstance: {fileID: 825974404}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &243677391 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4486665071657437684, guid: e46476c3755a7fc4d8f40aee2d60dba3, type: 3}
+  m_PrefabInstance: {fileID: 825974404}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 243677390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93527fde7c7ec343981d28365611259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &267949232 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2451287911657698149, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
@@ -2902,6 +2901,7 @@ MonoBehaviour:
   pazifismusText: {fileID: 1136869047}
   wissenText: {fileID: 1859048731}
   Intro: {fileID: 804187727}
+  npc: {fileID: 0}
   dayCount: 1
 --- !u!114 &831083340
 MonoBehaviour:
@@ -2948,7 +2948,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drawHexagon: {fileID: 1954550567}
-  Ausgabe: {fileID: 0}
   startLiebe: {x: 0.25, y: -0.35, z: 1}
   endLiebe: {x: 2, y: -3.1, z: 1}
   startHass: {x: 0.5, y: 0, z: 1}
@@ -2970,6 +2969,7 @@ MonoBehaviour:
   "Auswahlm\xF6glichkeiten": 1
   Wartezeit: 2
   changer: {fileID: 831083343}
+  day: {fileID: 831083347}
 --- !u!114 &831083343
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3049,6 +3049,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 179d3de7ae368414db4ef638bb3fdb07, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Day: 1
 --- !u!1 &840995640
 GameObject:
   m_ObjectHideFlags: 0
@@ -4265,6 +4266,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4065826609563785705, guid: e46476c3755a7fc4d8f40aee2d60dba3, type: 3}
   m_PrefabInstance: {fileID: 5253680787746448663}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1163895785 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4486665071657437684, guid: e46476c3755a7fc4d8f40aee2d60dba3, type: 3}
+  m_PrefabInstance: {fileID: 5253680787746448663}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1163895784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93527fde7c7ec343981d28365611259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1359549890
 GameObject:
   m_ObjectHideFlags: 0
@@ -4745,21 +4757,9 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 831083339}
-        m_TargetAssemblyTypeName: GetText, Assembly-CSharp
-        m_MethodName: setTextAnfrage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Bernard
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 831083347}
-        m_TargetAssemblyTypeName: dayCount, Assembly-CSharp
-        m_MethodName: updayCount
+      - m_Target: {fileID: 1163895785}
+        m_TargetAssemblyTypeName: changeNpc, Assembly-CSharp
+        m_MethodName: setToLieb
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4789,8 +4789,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
+  m_Sprite: {fileID: 21300000, guid: 78229ec5a32ebf742b307e7607ef84f1, type: 3}
+  m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4812,6 +4812,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4065826609563785705, guid: e46476c3755a7fc4d8f40aee2d60dba3, type: 3}
   m_PrefabInstance: {fileID: 1631655632}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1452842099 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4486665071657437684, guid: e46476c3755a7fc4d8f40aee2d60dba3, type: 3}
+  m_PrefabInstance: {fileID: 1631655632}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1452842098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93527fde7c7ec343981d28365611259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1460211084
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5274,28 +5285,16 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 831083339}
-        m_TargetAssemblyTypeName: GetText, Assembly-CSharp
-        m_MethodName: setTextAnfrage
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: Josephine
-          m_BoolArgument: 1
-        m_CallState: 2
-      - m_Target: {fileID: 831083347}
-        m_TargetAssemblyTypeName: dayCount, Assembly-CSharp
-        m_MethodName: updayCount
+      - m_Target: {fileID: 1768305399}
+        m_TargetAssemblyTypeName: changeNpc, Assembly-CSharp
+        m_MethodName: setToLieb
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Josephine
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1655254205
@@ -5716,6 +5715,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 4065826609563785705, guid: e46476c3755a7fc4d8f40aee2d60dba3, type: 3}
   m_PrefabInstance: {fileID: 1372923410}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1768305399 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4486665071657437684, guid: e46476c3755a7fc4d8f40aee2d60dba3, type: 3}
+  m_PrefabInstance: {fileID: 1372923410}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768305398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a93527fde7c7ec343981d28365611259, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1793834655
 GameObject:
   m_ObjectHideFlags: 0

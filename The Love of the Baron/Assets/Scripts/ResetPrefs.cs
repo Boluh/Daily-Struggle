@@ -5,7 +5,11 @@ using UnityEngine;
 
 public class ResetPrefs : MonoBehaviour
 {
+[SerializeField] int day;
 
+private void Awake() {
+    day = 1;
+}
 public void resetStats() {
  PlayerPrefs.SetFloat ("LiebeY", -0.35f);
 

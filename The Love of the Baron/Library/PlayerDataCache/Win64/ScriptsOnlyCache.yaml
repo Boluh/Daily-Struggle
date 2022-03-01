@@ -3,7 +3,6 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - Detecthovering
     - EndText
-    - GetName
     - GetScore
     - GetText
     - MainMenu
@@ -17,6 +16,7 @@ ScriptsOnlyBuild:
     - SliderManager
     - Track_Decisions
     - UIManager
+    - changeNpc
     - dayCount
     - editCosts
     FMODUnity.dll:
@@ -114,7 +114,7 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
-      Script: {instanceID: 1680}
+      Script: {instanceID: 1678}
     - Class: 114
       Script: {instanceID: 1878}
     - Class: 114
@@ -126,6 +126,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2900}
     - Class: 114
+      Script: {instanceID: 2990}
+    - Class: 114
       Script: {instanceID: 3086}
     - Class: 114
       Script: {instanceID: 3102}
@@ -135,8 +137,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 3156}
     - Class: 114
       Script: {instanceID: 3344}
-    - Class: 114
-      Script: {instanceID: 3452}
     - Class: 114
       Script: {instanceID: 3612}
     - Class: 114
@@ -167,6 +167,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6228}
     - Class: 114
       Script: {instanceID: 6308}
+    - Class: 114
+      Script: {instanceID: 20920}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -752,7 +754,7 @@ ScriptsOnlyBuild:
     className: TextMeshSpawner
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 0902ee72b2cea70e1ce568cd0a8c4fba
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: dayCount
@@ -872,12 +874,6 @@ ScriptsOnlyBuild:
     className: LimbSolver2D
   - hash:
       serializedVersion: 2
-      Hash: 406ddb183148142c936f6d0ac4a533ab
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: GetName
-  - hash:
-      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -944,7 +940,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+      Hash: 77640cc6fd85a5c811c5edcf0aa48aac
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ResetPrefs
@@ -1124,7 +1120,7 @@ ScriptsOnlyBuild:
     className: EventTrigger
   - hash:
       serializedVersion: 2
-      Hash: 4ce15e99c635d2567873d27549d1f16f
+      Hash: 9b29837b3b5b17270288792befd78e3d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: NightText
@@ -1490,10 +1486,16 @@ ScriptsOnlyBuild:
     className: PlatformMobileHigh
   - hash:
       serializedVersion: 2
-      Hash: f1d4d4cadd3f374490b659f325745004
+      Hash: f3c455e6ecf37174d5d1d18d5dd44754
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Track_Decisions
+  - hash:
+      serializedVersion: 2
+      Hash: 77ccc046a46c6af5ba82db8205a77d86
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: changeNpc
   platform: 19
   scenePathNames:
   - Assets/Scenes/Main_Menu.unity

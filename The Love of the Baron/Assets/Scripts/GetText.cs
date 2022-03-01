@@ -16,7 +16,7 @@ public class GetText : MonoBehaviour
  public Text pazifismusText;
  public Text wissenText;
  public Text Intro;
-
+public changeNpc npc;
  private string activeDiener;
 [SerializeField] public int dayCount;
 
@@ -31,10 +31,38 @@ private void OnEnable() {
         
     
 }
+
+
+private int npcs;
 private void Update() {
 
 }
-public void setTextAnfrage(string activeDiener){
+public void setTextAnfrage(){
+    npcs = npc.NPC;
+    if (npcs == 1)
+    {
+        activeDiener = "Alfons";
+    }
+    if (npcs == 2 )
+    {
+        activeDiener = "Richard";
+    }
+        if (npcs == 3)
+    {
+        activeDiener = "Elenor";
+    }
+            if (npcs == 4)
+    {
+        activeDiener = "Victoria";
+    }
+            if (npcs == 5)
+    {
+        activeDiener = "Frieda";
+    }
+            if (npcs == 6)
+    {
+        activeDiener = "Maximilian";
+    }
     string recallText = Application.dataPath + "/TextAssets/" + activeDiener + dayCount.ToString() + ".txt";
     List<string> fileLines = File.ReadAllLines(recallText).ToList();
 
@@ -45,6 +73,6 @@ public void setTextAnfrage(string activeDiener){
     neidText.text = fileLines[4];  
     pazifismusText.text = fileLines[5];
     wissenText.text = fileLines[6];
-}
+    }
 
 }

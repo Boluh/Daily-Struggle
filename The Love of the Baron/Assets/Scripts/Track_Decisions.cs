@@ -17,8 +17,6 @@ private Vector3 wissen;
 
 public LineRenderer drawHexagon;
 
-public Text Ausgabe;
-
 public Vector3 startLiebe;
 public Vector3 endLiebe;
 public Vector3 startHass;
@@ -212,6 +210,8 @@ private void start() {
    KnopfWissen.interactable = true;    
  
 }
+
+public dayCount day;
 private void Update() {
 
 drawHexagon.SetPosition(0,liebe);
@@ -223,7 +223,9 @@ drawHexagon.SetPosition(5,wissen);
 
 if ( DienerCount >= 2 && KnopfGier.interactable == false)
 {
+    day.updayCount();
     Invoke("endScene", Wartezeit);
+
 }
 
 }
