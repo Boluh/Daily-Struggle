@@ -61,7 +61,7 @@ private void OnEnable() {
     Entscheidungen.transform.position = new Vector3 (0,10000000,0);
     Bereiche.SetActive(false);
     Diener.SetActive(true);   
-      
+    
     }
 
     }

@@ -128,9 +128,50 @@ KnopfGier.interactable = false;
  PlayerPrefs.SetFloat ("WissenX", wissen.x);
  PlayerPrefs.SetFloat ("WissenY", wissen.y);
  }
+public SceneChanges changer;
 
-
-
+public void checkLove() {
+    if (liebe == endLiebe)
+    {
+        changer.GoToEnd();
+        PlayerPrefs.SetString("ActiveEnd","liebe");
+    }
+    }
+public void checkHass() {
+    if (hass == endHass)
+    {
+        changer.GoToEnd();
+        PlayerPrefs.SetString("ActiveEnd","hass");
+    }
+    }
+public void checkGier() {
+    if (gier == endGier)
+    {
+        changer.GoToEnd();
+        PlayerPrefs.SetString("ActiveEnd","gier");
+    }
+    }
+public void checkNeid() {
+    if (neid == endNeid)
+    {
+        changer.GoToEnd();
+        PlayerPrefs.SetString("ActiveEnd","neid");
+    }
+    }
+public void checkPazifismus() {
+    if (pazifismus == endPazifismus)
+    {
+        changer.GoToEnd();
+        PlayerPrefs.SetString("ActiveEnd","pazifismus");
+    }
+    }
+public void checkWissen() {
+    if (wissen == endWissen)
+    {
+        changer.GoToEnd();
+        PlayerPrefs.SetString("ActiveEnd","wissen");
+    }
+    }
 private void start() {
 
    KnopfLiebe.interactable = true;
