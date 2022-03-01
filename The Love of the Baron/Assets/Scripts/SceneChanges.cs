@@ -10,7 +10,6 @@ public class SceneChanges : MonoBehaviour
 public void GoToNight () {
 
 SceneManager.LoadScene("Night", LoadSceneMode.Single);
-
 }
 
 public void GoToDay () {
@@ -30,6 +29,7 @@ SceneManager.LoadScene("DeathScreen", LoadSceneMode.Single);
 }
 
 public void GoToEnd(){
-SceneManager.LoadScene("EndScene", LoadSceneMode.Single);    
+SceneManager.LoadScene("EndScene", LoadSceneMode.Single); 
+ 
 }
 }
