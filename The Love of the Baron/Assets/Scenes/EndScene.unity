@@ -385,7 +385,7 @@ RectTransform:
   m_Children:
   - {fileID: 1736266531}
   m_Father: {fileID: 1069280447}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -594,7 +594,7 @@ RectTransform:
   m_Children:
   - {fileID: 2065778354}
   m_Father: {fileID: 1069280447}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -671,7 +671,7 @@ RectTransform:
   m_Children:
   - {fileID: 1115027995}
   m_Father: {fileID: 1069280447}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1044,7 +1044,7 @@ RectTransform:
   m_Children:
   - {fileID: 1688821627}
   m_Father: {fileID: 1069280447}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1120,7 +1120,7 @@ RectTransform:
   m_Children:
   - {fileID: 941798281}
   m_Father: {fileID: 1069280447}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1264,7 +1264,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 898c5d0b28593e94293f66e6a6ca7062, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endText: {fileID: 0}
+  endText: {fileID: 1057028312}
   Liebe: {fileID: 292426511}
   Hass: {fileID: 638195078}
   Gier: {fileID: 660024421}
@@ -1493,6 +1493,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941798280}
   m_CullTransparentMesh: 1
+--- !u!1 &1057028310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1057028311}
+  - component: {fileID: 1057028313}
+  - component: {fileID: 1057028312}
+  m_Layer: 5
+  m_Name: 1 (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1057028311
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057028310}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.999594, y: 0.999594, z: 0.999594}
+  m_Children: []
+  m_Father: {fileID: 1069280447}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -397, y: 214.27003}
+  m_SizeDelta: {x: 1002.85, y: 471}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1057028312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057028310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.9245283, g: 0.8591136, b: 0.8591136, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 33
+    m_FontStyle: 0
+    m_BestFit: 0
+    m_MinSize: 9
+    m_MaxSize: 95
+    m_Alignment: 1
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: "Maximilian: Mein Lord, oh mein Lord, gew\xE4hrt ihr eurem treuen Ritter
+    eine weitere Audienz? Ich bin gekommen um meine Liebe kundzutun. Ihr habt wahrlich
+    mit euren Entscheidungen gezeigt, dass ihr eine \xE4u\xDFert galante Person seid
+    und auch wirklich mit der Ehre eines Ritters mithalten k\xF6nnt. Gemeinsam k\xF6nnen
+    wir der gesamten Welt zeigen, dass es doch wahre Liebe gibt und dass die alten
+    Wege der Ritterlichkeit nicht ausgestorben sind. "
+--- !u!222 &1057028313
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057028310}
+  m_CullTransparentMesh: 1
 --- !u!1 &1064293733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1524,7 +1608,7 @@ RectTransform:
   m_Children:
   - {fileID: 1777158050}
   m_Father: {fileID: 1069280447}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1661,6 +1745,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 1913186214}
+  - {fileID: 1057028311}
   - {fileID: 292426512}
   - {fileID: 638195079}
   - {fileID: 660024422}
@@ -2041,7 +2126,7 @@ RectTransform:
   m_Children:
   - {fileID: 23591076}
   m_Father: {fileID: 1069280447}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
