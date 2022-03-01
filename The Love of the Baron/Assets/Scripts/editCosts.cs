@@ -57,6 +57,10 @@ public float x;
 private float checkBereich;
  private void Awake()
 { 
+    PlayerPrefs.SetFloat("StartGeld", PlayerPrefs.GetFloat("Geld"));
+    PlayerPrefs.SetFloat("StartZuneigung", PlayerPrefs.GetFloat("Zuneigung"));
+    PlayerPrefs.SetFloat("StartStärke", PlayerPrefs.GetFloat("Stärke"));
+
     Geld = PlayerPrefs.GetFloat("Geld");
     Zuneigung=PlayerPrefs.GetFloat("Zuneigung");
     Stärke=PlayerPrefs.GetFloat("Stärke");
