@@ -951,6 +951,18 @@ MonoBehaviour:
           m_StringArgument: Wolfgang
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: GetText, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &145932564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1034,7 +1046,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &183616397
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2861,6 +2873,8 @@ GameObject:
   - component: {fileID: 831083339}
   - component: {fileID: 831083345}
   - component: {fileID: 831083346}
+  - component: {fileID: 831083343}
+  - component: {fileID: 831083347}
   m_Layer: 0
   m_Name: Scripts
   m_TagString: Untagged
@@ -2934,6 +2948,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   drawHexagon: {fileID: 1954550567}
+  Ausgabe: {fileID: 0}
   startLiebe: {x: 0.25, y: -0.35, z: 1}
   endLiebe: {x: 2, y: -3.1, z: 1}
   startHass: {x: 0.5, y: 0, z: 1}
@@ -2954,7 +2969,19 @@ MonoBehaviour:
   KnopfWissen: {fileID: 927322055}
   "Auswahlm\xF6glichkeiten": 1
   Wartezeit: 2
-  changer: {fileID: 0}
+  changer: {fileID: 831083343}
+--- !u!114 &831083343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831083338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2865845c47eeff44ea0dbcff71f21de1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &831083344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3010,6 +3037,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SectionWheel: {fileID: 840995640}
+--- !u!114 &831083347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831083338}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 179d3de7ae368414db4ef638bb3fdb07, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &840995640
 GameObject:
   m_ObjectHideFlags: 0
@@ -3109,6 +3148,18 @@ PrefabInstance:
     - target: {fileID: 2451287911657698150, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451287911882276098, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
+      propertyPath: m_Color.b
+      value: 0.1764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451287911882276098, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
+      propertyPath: m_Color.g
+      value: 0.1764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451287911882276098, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
+      propertyPath: m_Color.r
+      value: 0.7372549
       objectReference: {fileID: 0}
     - target: {fileID: 2451287912240443582, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
       propertyPath: m_Color.b
@@ -4706,6 +4757,18 @@ MonoBehaviour:
           m_StringArgument: Bernard
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 831083347}
+        m_TargetAssemblyTypeName: dayCount, Assembly-CSharp
+        m_MethodName: updayCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1451572464
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4818,13 +4881,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2451287911882276098, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
       propertyPath: m_Color.b
-      value: 0.1764706
+      value: 0.2509804
       objectReference: {fileID: 0}
     - target: {fileID: 2451287911882276098, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
       propertyPath: m_Color.g
-      value: 0.1764706
+      value: 0.6039216
       objectReference: {fileID: 0}
     - target: {fileID: 2451287911882276098, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
+      propertyPath: m_Color.r
+      value: 0.36078432
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451287912240443582, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
+      propertyPath: m_Color.b
+      value: 0.2509804
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451287912240443582, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6039216
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451287912240443582, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
+      propertyPath: m_Color.r
+      value: 0.36078432
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451287912371673328, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
+      propertyPath: m_Color.b
+      value: 0.1764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451287912371673328, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
+      propertyPath: m_Color.g
+      value: 0.1764706
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451287912371673328, guid: d51bc007d89efc64ba349fb8df0494d6, type: 3}
       propertyPath: m_Color.r
       value: 0.7372549
       objectReference: {fileID: 0}
@@ -5197,6 +5284,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: Josephine
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 831083347}
+        m_TargetAssemblyTypeName: dayCount, Assembly-CSharp
+        m_MethodName: updayCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
 --- !u!114 &1655254205

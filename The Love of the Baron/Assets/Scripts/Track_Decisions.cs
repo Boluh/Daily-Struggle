@@ -17,6 +17,7 @@ private Vector3 wissen;
 
 public LineRenderer drawHexagon;
 
+public Text Ausgabe;
 
 public Vector3 startLiebe;
 public Vector3 endLiebe;
@@ -88,18 +89,21 @@ public void AddLiebe(float Amount){
 KnopfLiebe.interactable = false;
  PlayerPrefs.SetFloat ("LiebeX", liebe.x);
  PlayerPrefs.SetFloat ("LiebeY", liebe.y);
+ Invoke("checkLove",0);
  }
 public void AddHass(float Amount){
  hass = Vector3.MoveTowards(hass,endHass,Amount);
  KnopfHass.interactable = false;
  PlayerPrefs.SetFloat ("HassX", hass.x);
  PlayerPrefs.SetFloat ("HassY", hass.y);
+  Invoke("checkHass",0);
  }
  public void AddGier(float Amount){
  gier = Vector3.MoveTowards(gier,endGier,Amount);
 KnopfGier.interactable = false;
  PlayerPrefs.SetFloat ("GierX", gier.x);
  PlayerPrefs.SetFloat ("GierY", gier.y);
+ Invoke("checkGier",0);
  }
 
 
@@ -109,6 +113,7 @@ KnopfGier.interactable = false;
  KnopfNeid.interactable = false; 
  PlayerPrefs.SetFloat ("NeidX", neid.x);
  PlayerPrefs.SetFloat ("NeidY", neid.y);
+ Invoke("checkNeid",0);
  }
 
 
@@ -118,6 +123,7 @@ KnopfGier.interactable = false;
  KnopfPazifismus.interactable = false;
  PlayerPrefs.SetFloat ("PaziX", pazifismus.x);
  PlayerPrefs.SetFloat ("PaziY", pazifismus.y);
+ Invoke("checkPazifismus",0);
  }
 
 
@@ -127,46 +133,70 @@ KnopfGier.interactable = false;
  KnopfWissen.interactable = false;
  PlayerPrefs.SetFloat ("WissenX", wissen.x);
  PlayerPrefs.SetFloat ("WissenY", wissen.y);
+ Invoke("checkWissen",0);
  }
+
 public SceneChanges changer;
 
 public void checkLove() {
-    if (liebe == endLiebe)
+    if (liebe.y <= -0.75)
+    {
+        
+    }
+        if (liebe.y <= -0.75)
+    {
+        
+    }
+        if (liebe.y <= -0.75)
+    {
+        
+    }
+        if (liebe.y <= -0.75)
+    {
+        
+    }
+        if (liebe.y <= -0.75)
+    {
+        
+    }
+
+    if (liebe.y <= -2.75)
     {
         changer.GoToEnd();
         PlayerPrefs.SetString("ActiveEnd","liebe");
+        
     }
     }
 public void checkHass() {
-    if (hass == endHass)
+    if (hass.x >= 2.75)
     {
         changer.GoToEnd();
         PlayerPrefs.SetString("ActiveEnd","hass");
     }
     }
 public void checkGier() {
-    if (gier == endGier)
+    if (gier.y >= 2.75)
     {
         changer.GoToEnd();
         PlayerPrefs.SetString("ActiveEnd","gier");
     }
     }
 public void checkNeid() {
-    if (neid == endNeid)
+    if (neid.y >= 2.75)
     {
         changer.GoToEnd();
         PlayerPrefs.SetString("ActiveEnd","neid");
     }
     }
 public void checkPazifismus() {
-    if (pazifismus == endPazifismus)
+    if (pazifismus.x <= -2.75)
     {
         changer.GoToEnd();
         PlayerPrefs.SetString("ActiveEnd","pazifismus");
     }
     }
 public void checkWissen() {
-    if (wissen == endWissen)
+    if (wissen.y <= -2.75)
     {
         changer.GoToEnd();
         PlayerPrefs.SetString("ActiveEnd","wissen");

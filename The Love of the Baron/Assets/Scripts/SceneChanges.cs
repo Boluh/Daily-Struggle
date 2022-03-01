@@ -17,8 +17,9 @@ SceneManager.LoadScene("Day", LoadSceneMode.Single);
 }
 
 public void GoToFirstDay () {
+    PlayerPrefs.SetInt("dayCount",1);
     SceneManager.LoadScene("Day", LoadSceneMode.Single);
-}
+    }
 
 public void GoToMainMenu () {
     SceneManager.LoadScene("Main_Menu", LoadSceneMode.Single);

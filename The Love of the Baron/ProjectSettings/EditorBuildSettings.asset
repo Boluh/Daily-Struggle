@@ -15,9 +15,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Night.unity
     guid: 38957b9ebe3787d4eac5931b358a3ab0
   - enabled: 1
-    path: Assets/Scenes/FirstDay.unity
-    guid: a2fc7be6bc0b43146a2aec85d70422f2
-  - enabled: 1
     path: Assets/Scenes/DeathScreen.unity
     guid: b0879248ddfcb3848aeb4269858f0b37
   - enabled: 1
